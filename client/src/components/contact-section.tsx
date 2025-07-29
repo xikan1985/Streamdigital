@@ -1,85 +1,22 @@
-import { useState } from "react";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useMutation } from "@tanstack/react-query";
+import { useEffect } from "react";
 import { Phone, Mail, Clock } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
-import { useToast } from "@/hooks/use-toast";
-import { insertContactSubmissionSchema, type InsertContactSubmission } from "@shared/schema";
-import { apiRequest } from "@/lib/queryClient";
 
 export default function ContactSection() {
-  const { toast } = useToast();
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  // Load Go High Level form script
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://link.msgsndr.com/js/form_embed.js';
+    script.async = true;
+    document.body.appendChild(script);
 
-  const form = useForm<InsertContactSubmission>({
-    resolver: zodResolver(insertContactSubmissionSchema),
-    defaultValues: {
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
-      tradeType: "",
-      businessSize: "",
-      agreedToTerms: "false" as "true",
-    },
-  });
-
-  const submitMutation = useMutation({
-    mutationFn: async (data: InsertContactSubmission) => {
-      const response = await apiRequest("POST", "/api/contact", data);
-      return response.json();
-    },
-    onSuccess: (data) => {
-      setIsSubmitted(true);
-      toast({
-        title: "Thank you!",
-        description: data.message,
-      });
-      form.reset();
-    },
-    onError: (error: any) => {
-      toast({
-        title: "Submission Failed",
-        description: error.message || "Please try again.",
-        variant: "destructive",
-      });
-    },
-  });
-
-  const onSubmit = (data: InsertContactSubmission) => {
-    submitMutation.mutate(data);
-  };
-
-  if (isSubmitted) {
-    return (
-      <section id="contact" className="py-20 bg-gradient-to-br from-primary to-secondary">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="bg-white rounded-2xl p-12 shadow-2xl">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-            </div>
-            <h3 className="text-3xl font-bold text-charcoal mb-4">Thank You!</h3>
-            <p className="text-lg text-gray-600 mb-8">
-              We've received your information and will be in touch within 24 hours to set up your free trial.
-            </p>
-            <Button 
-              onClick={() => setIsSubmitted(false)}
-              className="gradient-bg text-white"
-            >
-              Submit Another Request
-            </Button>
-          </div>
-        </div>
-      </section>
-    );
-  }
+    return () => {
+      // Cleanup script on unmount
+      const existingScript = document.querySelector('script[src="https://link.msgsndr.com/js/form_embed.js"]');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+    };
+  }, []);
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-primary to-secondary">
@@ -131,160 +68,31 @@ export default function ContactSection() {
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
             <h3 className="text-2xl font-bold text-charcoal mb-6">Start Your Free Trial</h3>
             
-            <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <FormField
-                    control={form.control}
-                    name="firstName"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>First Name</FormLabel>
-                        <FormControl>
-                          <Input placeholder="John" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-                  <FormField
-                    control={form.control}
-                    name="lastName"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>Last Name</FormLabel>
-                        <FormControl>
-                          <Input placeholder="Smith" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-                </div>
-                
-                <FormField
-                  control={form.control}
-                  name="email"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Email Address</FormLabel>
-                      <FormControl>
-                        <Input type="email" placeholder="john@example.com" {...field} />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                
-                <FormField
-                  control={form.control}
-                  name="phone"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Phone Number</FormLabel>
-                      <FormControl>
-                        <Input type="tel" placeholder="0400 000 000" {...field} />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                
-                <FormField
-                  control={form.control}
-                  name="tradeType"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Trade Type</FormLabel>
-                      <Select onValueChange={field.onChange} defaultValue={field.value}>
-                        <FormControl>
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select your trade" />
-                          </SelectTrigger>
-                        </FormControl>
-                        <SelectContent>
-                          <SelectItem value="electrician">Electrician</SelectItem>
-                          <SelectItem value="plumber">Plumber</SelectItem>
-                          <SelectItem value="builder">Builder</SelectItem>
-                          <SelectItem value="roofer">Roofer</SelectItem>
-                          <SelectItem value="painter">Painter</SelectItem>
-                          <SelectItem value="carpenter">Carpenter</SelectItem>
-                          <SelectItem value="landscaper">Landscaper</SelectItem>
-                          <SelectItem value="other">Other</SelectItem>
-                        </SelectContent>
-                      </Select>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                
-                <FormField
-                  control={form.control}
-                  name="businessSize"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Business Size</FormLabel>
-                      <Select onValueChange={field.onChange} defaultValue={field.value}>
-                        <FormControl>
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select business size" />
-                          </SelectTrigger>
-                        </FormControl>
-                        <SelectContent>
-                          <SelectItem value="solo">Solo trader</SelectItem>
-                          <SelectItem value="small">2-5 employees</SelectItem>
-                          <SelectItem value="medium">6-20 employees</SelectItem>
-                          <SelectItem value="large">20+ employees</SelectItem>
-                        </SelectContent>
-                      </Select>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                
-                <FormField
-                  control={form.control}
-                  name="agreedToTerms"
-                  render={({ field }) => (
-                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
-                      <FormControl>
-                        <Checkbox
-                          checked={field.value === "true"}
-                          onCheckedChange={(checked) =>
-                            field.onChange(checked ? "true" : "false")
-                          }
-                        />
-                      </FormControl>
-                      <div className="space-y-1 leading-none">
-                        <FormLabel className="text-sm text-gray-600">
-                          I agree to the{" "}
-                          <a href="#" className="text-primary hover:underline">
-                            Terms & Conditions
-                          </a>{" "}
-                          and{" "}
-                          <a href="#" className="text-primary hover:underline">
-                            Privacy Policy
-                          </a>
-                        </FormLabel>
-                        <FormMessage />
-                      </div>
-                    </FormItem>
-                  )}
-                />
-                
-                <Button 
-                  type="submit" 
-                  className="w-full gradient-bg text-white py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105"
-                  disabled={submitMutation.isPending}
-                >
-                  {submitMutation.isPending ? "Submitting..." : "Start Free 14-Day Trial"}
-                </Button>
-                
-                <p className="text-xs text-gray-500 text-center">
-                  No credit card required • Cancel anytime • Setup within 24 hours
-                </p>
-              </form>
-            </Form>
+            {/* Go High Level Embedded Form */}
+            <div className="w-full" style={{ minHeight: '600px' }}>
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/form/oNtoE6mrxKOyMDdnwN3q"
+                style={{
+                  width: '100%',
+                  height: '600px',
+                  border: 'none',
+                  borderRadius: '4px'
+                }}
+                id="inline-oNtoE6mrxKOyMDdnwN3q"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Marketing Form - Claim Offer"
+                data-height="593"
+                data-layout-iframe-id="inline-oNtoE6mrxKOyMDdnwN3q"
+                data-form-id="oNtoE6mrxKOyMDdnwN3q"
+                title="Marketing Form - Claim Offer"
+              />
+            </div>
           </div>
         </div>
       </div>
