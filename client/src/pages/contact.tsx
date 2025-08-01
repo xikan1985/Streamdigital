@@ -1,0 +1,158 @@
+import { useEffect } from "react";
+import { Phone, Mail, Clock, MapPin } from "lucide-react";
+import Navigation from "@/components/navigation";
+import Footer from "@/components/footer";
+
+export default function Contact() {
+  // Load Go High Level form script
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://link.msgsndr.com/js/form_embed.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      const existingScript = document.querySelector('script[src="https://link.msgsndr.com/js/form_embed.js"]');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+    };
+  }, []);
+
+  return (
+    <div className="min-h-screen">
+      <Navigation />
+      
+      {/* Hero Section */}
+      <section className="pt-20 pb-16 bg-gradient-to-br from-primary to-secondary">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center text-white">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+              Get In <span className="text-yellow-300">Touch</span>
+            </h1>
+            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+              Ready to transform your trade business with AI? Contact us today for a free consultation and see how we can help you automate your operations.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            {/* Contact Information */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-3xl font-bold text-charcoal mb-6">
+                  Let's Start Your AI Journey
+                </h2>
+                <p className="text-xl text-gray-600 leading-relaxed mb-8">
+                  Whether you're a solo tradie or run a team, we're here to help you implement AI solutions that will save time, increase leads, and grow your business.
+                </p>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-charcoal text-lg mb-1">Call Us Today</h3>
+                    <p className="text-gray-600">1800 STREAM (1800 787 326)</p>
+                    <p className="text-sm text-gray-500">Free consultation available</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-charcoal text-lg mb-1">Email Support</h3>
+                    <p className="text-gray-600">hello@streamdigital.com.au</p>
+                    <p className="text-sm text-gray-500">We respond within 2 hours</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-charcoal text-lg mb-1">Support Hours</h3>
+                    <p className="text-gray-600">Monday - Friday, 9AM - 6PM AEST</p>
+                    <p className="text-sm text-gray-500">Extended hours available for urgent requests</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-charcoal text-lg mb-1">Location</h3>
+                    <p className="text-gray-600">Sydney, Australia</p>
+                    <p className="text-sm text-gray-500">Serving tradies across Australia</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* FAQ Preview */}
+              <div className="bg-lightgrey p-6 rounded-2xl">
+                <h3 className="font-semibold text-charcoal mb-4">Quick Questions?</h3>
+                <div className="space-y-3 text-sm">
+                  <div>
+                    <p className="font-medium text-charcoal">How quickly can I get started?</p>
+                    <p className="text-gray-600">Most setups are completed within 24-48 hours.</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-charcoal">Do I need technical knowledge?</p>
+                    <p className="text-gray-600">No! We handle all the technical setup for you.</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-charcoal">Can I cancel anytime?</p>
+                    <p className="text-gray-600">Yes, no long-term contracts required.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Contact Form */}
+            <div className="bg-lightgrey rounded-2xl p-8">
+              <h3 className="text-2xl font-bold text-charcoal mb-6">Start Your Free Trial</h3>
+              
+              {/* Go High Level Embedded Form */}
+              <div className="w-full" style={{ minHeight: '600px' }}>
+                <iframe
+                  src="https://api.leadconnectorhq.com/widget/form/oNtoE6mrxKOyMDdnwN3q"
+                  style={{
+                    width: '100%',
+                    height: '600px',
+                    border: 'none',
+                    borderRadius: '4px'
+                  }}
+                  id="inline-oNtoE6mrxKOyMDdnwN3q"
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Marketing Form - Claim Offer"
+                  data-height="593"
+                  data-layout-iframe-id="inline-oNtoE6mrxKOyMDdnwN3q"
+                  data-form-id="oNtoE6mrxKOyMDdnwN3q"
+                  title="Marketing Form - Claim Offer"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+}

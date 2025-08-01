@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application built with Express.js backend and React frontend, designed as a landing page for an AI services company targeting trade businesses in Australia. The application features a contact form system and is built with modern TypeScript, Tailwind CSS, and component-based architecture.
+This is a full-stack web application built with Express.js backend and React frontend, designed as a comprehensive website for Stream Digital, an AI services company targeting trade businesses in Australia. The application features multiple pages including home, contact, plans/pricing, and resources sections, with Go High Level form integration and modern design.
 
 ## User Preferences
 
@@ -36,10 +36,13 @@ Preferred communication style: Simple, everyday language.
 ## Key Components
 
 ### Frontend Components
+- **Multi-Page Website**: Home, Contact, Plans, Resources with full navigation
 - **Landing Page Sections**: Hero, Features, Benefits, Testimonials, Contact, Footer
 - **UI Components**: Complete Shadcn/ui component library including forms, buttons, modals, etc.
-- **Navigation**: Fixed header with smooth scrolling to sections
-- **Contact Form**: Multi-field form with validation and submission handling
+- **Navigation**: Fixed header with routing between pages and smooth scrolling on home page
+- **Contact Form**: Go High Level embedded form integration for lead capture
+- **Pricing Plans**: Two-tier pricing structure ($250 and $350 AUD monthly plans)
+- **Resources Section**: Trade-specific content and case studies
 
 ### Backend Components
 - **Route Handlers**: Contact form submission and retrieval endpoints
@@ -53,13 +56,11 @@ Preferred communication style: Simple, everyday language.
 
 ## Data Flow
 
-1. **User Interaction**: Users fill out contact form on landing page
-2. **Form Validation**: Client-side validation using React Hook Form + Zod
-3. **API Request**: Form data sent to `/api/contact` endpoint
-4. **Server Validation**: Server validates data using shared Zod schemas
-5. **Data Storage**: Contact submission stored in memory (ready for database migration)
-6. **Response**: Success/error response sent back to client
-7. **UI Update**: Toast notification shown to user based on response
+1. **User Navigation**: Users browse between pages (Home, Contact, Plans, Resources)
+2. **Lead Capture**: Go High Level embedded forms capture leads directly into external system
+3. **Form Integration**: External form handles validation and submission to Go High Level CRM
+4. **Multi-Page Experience**: Seamless routing between different sections of the website
+5. **Contact Integration**: All contact forms route to the same Go High Level system for unified lead management
 
 ## External Dependencies
 
@@ -99,8 +100,20 @@ Preferred communication style: Simple, everyday language.
 
 ## Development Notes
 
-- The application is currently using in-memory storage but is designed for easy migration to PostgreSQL
-- All form validation schemas are shared between client and server for consistency
-- The UI follows a professional gradient-based design system with custom CSS variables
-- Mobile-responsive design implemented throughout
+- Multi-page website structure with client-side routing using Wouter
+- Go High Level form integration for external lead management system
+- Stream Digital branding with custom logo integration
+- Professional gradient-based design system with purple/blue color scheme
+- Mobile-responsive design implemented throughout all pages
+- Comprehensive pricing structure with two-tier plans ($250/$350 AUD monthly)
+- Trade-specific resources and case studies for different contractor types
 - Ready for production deployment with proper build scripts and error handling
+
+## Recent Changes (January 2025)
+
+- **Multi-Page Architecture**: Expanded from single landing page to full website with Contact, Plans, and Resources pages
+- **Go High Level Integration**: Replaced native forms with embedded Go High Level forms for unified lead management
+- **Navigation System**: Implemented proper routing with Wouter for seamless page transitions
+- **Pricing Structure**: Added comprehensive pricing page with $250 and $350 monthly plans
+- **Resources Section**: Created trade-specific content library with case studies and guides
+- **Logo Integration**: Updated to use actual Stream Digital logo with mountain/water design and "1% matters" tagline

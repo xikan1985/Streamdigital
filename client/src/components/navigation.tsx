@@ -1,12 +1,20 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link, useLocation } from "wouter";
 import Logo from "./logo";
 import { Button } from "@/components/ui/button";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [location] = useLocation();
 
   const scrollToSection = (sectionId: string) => {
+    // If we're not on the home page, navigate there first
+    if (location !== '/') {
+      window.location.href = `/#${sectionId}`;
+      return;
+    }
+    
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -18,31 +26,39 @@ export default function Navigation() {
     <nav className="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Logo />
+          <Link href="/">
+            <Logo />
+          </Link>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <button onClick={() => scrollToSection('features')} className="text-charcoal hover:text-primary transition-colors">
-              Features
-            </button>
-            <button onClick={() => scrollToSection('benefits')} className="text-charcoal hover:text-primary transition-colors">
-              Benefits
-            </button>
-            <button onClick={() => scrollToSection('testimonials')} className="text-charcoal hover:text-primary transition-colors">
-              Reviews
-            </button>
-            <button onClick={() => scrollToSection('contact')} className="text-charcoal hover:text-primary transition-colors">
+            <Link href="/plans" className="text-charcoal hover:text-primary transition-colors">
+              Plans
+            </Link>
+            <Link href="/resources" className="text-charcoal hover:text-primary transition-colors">
+              Resources
+            </Link>
+            <Link href="/contact" className="text-charcoal hover:text-primary transition-colors">
               Contact
-            </button>
+            </Link>
+            {location === '/' && (
+              <>
+                <button onClick={() => scrollToSection('features')} className="text-charcoal hover:text-primary transition-colors">
+                  Features
+                </button>
+                <button onClick={() => scrollToSection('testimonials')} className="text-charcoal hover:text-primary transition-colors">
+                  Reviews
+                </button>
+              </>
+            )}
           </div>
           
           <div className="hidden md:block">
-            <Button 
-              onClick={() => scrollToSection('contact')}
-              className="gradient-bg text-white hover:opacity-90 transition-opacity"
-            >
-              Get Started
-            </Button>
+            <Link href="/contact">
+              <Button className="gradient-bg text-white hover:opacity-90 transition-opacity">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -62,24 +78,30 @@ export default function Navigation() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4">
-              <button onClick={() => scrollToSection('features')} className="text-charcoal hover:text-primary transition-colors text-left">
-                Features
-              </button>
-              <button onClick={() => scrollToSection('benefits')} className="text-charcoal hover:text-primary transition-colors text-left">
-                Benefits
-              </button>
-              <button onClick={() => scrollToSection('testimonials')} className="text-charcoal hover:text-primary transition-colors text-left">
-                Reviews
-              </button>
-              <button onClick={() => scrollToSection('contact')} className="text-charcoal hover:text-primary transition-colors text-left">
+              <Link href="/plans" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
+                Plans
+              </Link>
+              <Link href="/resources" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
+                Resources
+              </Link>
+              <Link href="/contact" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
                 Contact
-              </button>
-              <Button 
-                onClick={() => scrollToSection('contact')}
-                className="gradient-bg text-white hover:opacity-90 transition-opacity w-full mt-4"
-              >
-                Get Started
-              </Button>
+              </Link>
+              {location === '/' && (
+                <>
+                  <button onClick={() => scrollToSection('features')} className="text-charcoal hover:text-primary transition-colors text-left">
+                    Features
+                  </button>
+                  <button onClick={() => scrollToSection('testimonials')} className="text-charcoal hover:text-primary transition-colors text-left">
+                    Reviews
+                  </button>
+                </>
+              )}
+              <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
+                <Button className="gradient-bg text-white hover:opacity-90 transition-opacity w-full mt-4">
+                  Get Started
+                </Button>
+              </Link>
             </div>
           </div>
         )}
