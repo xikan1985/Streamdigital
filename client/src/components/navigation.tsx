@@ -32,6 +32,9 @@ export default function Navigation() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
+            <Link href="/features" className="text-charcoal hover:text-primary transition-colors">
+              Features
+            </Link>
             <Link href="/plans" className="text-charcoal hover:text-primary transition-colors">
               Plans
             </Link>
@@ -41,16 +44,6 @@ export default function Navigation() {
             <Link href="/contact" className="text-charcoal hover:text-primary transition-colors">
               Contact
             </Link>
-            {location === '/' && (
-              <>
-                <button onClick={() => scrollToSection('features')} className="text-charcoal hover:text-primary transition-colors">
-                  Features
-                </button>
-                <button onClick={() => scrollToSection('testimonials')} className="text-charcoal hover:text-primary transition-colors">
-                  Reviews
-                </button>
-              </>
-            )}
           </div>
           
           <div className="hidden md:block">
@@ -78,6 +71,9 @@ export default function Navigation() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4">
+              <Link href="/features" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
+                Features
+              </Link>
               <Link href="/plans" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
                 Plans
               </Link>
@@ -87,16 +83,6 @@ export default function Navigation() {
               <Link href="/contact" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
                 Contact
               </Link>
-              {location === '/' && (
-                <>
-                  <button onClick={() => scrollToSection('features')} className="text-charcoal hover:text-primary transition-colors text-left">
-                    Features
-                  </button>
-                  <button onClick={() => scrollToSection('testimonials')} className="text-charcoal hover:text-primary transition-colors text-left">
-                    Reviews
-                  </button>
-                </>
-              )}
               <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
                 <Button className="gradient-bg text-white hover:opacity-90 transition-opacity w-full mt-4">
                   Get Started

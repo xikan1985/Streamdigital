@@ -1,20 +1,25 @@
 import Navigation from "@/components/navigation";
-import HeroSection from "@/components/hero-section";
-import FeaturesSection from "@/components/features-section";
-import BenefitsSection from "@/components/benefits-section";
-import TestimonialsSection from "@/components/testimonials-section";
-import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <HeroSection />
-      <FeaturesSection />
-      <BenefitsSection />
-      <TestimonialsSection />
-      <ContactSection />
+      
+      {/* Hero Section */}
+      <section className="pt-20 pb-16 bg-gradient-to-br from-primary to-secondary">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center text-white">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+              Welcome to <span className="text-yellow-300">Stream Digital</span>
+            </h1>
+            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+              AI-powered solutions for Australian trade businesses. Automate your operations and grow your business with intelligent automation.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
