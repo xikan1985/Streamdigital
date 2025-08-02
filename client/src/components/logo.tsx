@@ -10,7 +10,7 @@ export default function Logo({ className = "" }: LogoProps) {
       <img 
         src={logoPath} 
         alt="Stream Digital Logo" 
-        className="h-12 w-auto"
+        className="h-16 w-auto"
       />
     </div>
   );
