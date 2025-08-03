@@ -5,12 +5,12 @@ export default function FeaturesSection() {
     {
       icon: Phone,
       title: "Miss Call Text Back",
-      description: "Never miss a customer call again. Get an instant text reply to every missed call, so you can follow up quickly and win more jobs. Perfect for busy electricians and plumbers on the go in Geelong and Bellarine."
+      description: "Never miss a customer call again. Get an instant text reply to every missed call, so you can follow up quickly and win more jobs. Perfect for busy electricians and plumbers on the go."
     },
     {
       icon: Calendar,
       title: "AI Agent to Book Appointments",
-      description: "Say goodbye to phone tag—our AI handles bookings 24/7 for Geelong and Bellarine electricians and plumbers. You get more jobs lined up and extra time to focus on your work."
+      description: "Say goodbye to phone tag—our AI handles bookings 24/7 for electricians and plumbers. You get more jobs lined up and extra time to focus on your work."
     },
     {
       icon: MessageCircle,
@@ -25,7 +25,7 @@ export default function FeaturesSection() {
     {
       icon: BarChart3,
       title: "Paid Ads Management",
-      description: "Get more customers with our expert management. We run Google Ads, Meta, and TikTok campaigns to bring more jobs to electricians and plumbers in the Geelong and Bellarine area."
+      description: "Get more customers with our expert management. We run Google Ads, Meta, and TikTok campaigns to bring more jobs to electricians and plumbers."
     },
     {
       icon: Zap,
