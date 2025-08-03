@@ -8,6 +8,7 @@ import Features from "@/pages/features";
 import Contact from "@/pages/contact";
 import Plans from "@/pages/plans";
 import Resources from "@/pages/resources";
+import { Privacy } from "@/pages/privacy";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -19,6 +20,7 @@ function Router() {
       <Route path="/contact" component={Contact} />
       <Route path="/plans" component={Plans} />
       <Route path="/resources" component={Resources} />
+      <Route path="/privacy" component={Privacy} />
       <Route component={NotFound} />
     </Switch>
   );

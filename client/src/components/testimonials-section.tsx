@@ -60,19 +60,7 @@ export default function TestimonialsSection() {
           ))}
         </div>
         
-        <div className="text-center mt-12">
-          <div className="inline-flex items-center space-x-4 bg-lightgrey px-8 py-4 rounded-xl">
-            <div className="flex -space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-full border-2 border-white"></div>
-              <div className="w-10 h-10 bg-gradient-to-br from-accent to-primary rounded-full border-2 border-white"></div>
-              <div className="w-10 h-10 bg-gradient-to-br from-secondary to-accent rounded-full border-2 border-white"></div>
-            </div>
-            <div className="text-left">
-              <p className="font-semibold text-charcoal">Join 200+ Happy Local Tradies</p>
-              <p className="text-sm text-gray-600">Trusted by electricians and plumbers across Geelong & Bellarine</p>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
