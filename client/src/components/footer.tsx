@@ -26,16 +26,7 @@ export default function Footer() {
           
 
           
-          <div>
-            <h4 className="font-semibold mb-4">Geelong Service Areas</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Geelong Central</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Bellarine Peninsula</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Torquay & Surf Coast</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Geelong West</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Greater Geelong</a></li>
-            </ul>
-          </div>
+
           
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
