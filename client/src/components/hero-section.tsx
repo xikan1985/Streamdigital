@@ -64,13 +64,7 @@ export default function HeroSection() {
               alt="Professional tradesman using digital technology" 
               className="rounded-2xl shadow-2xl w-full h-auto" 
             />
-            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">AI Agent Active</span>
-              </div>
-              <p className="text-xs text-gray-500 mt-1">Handling 3 customer calls</p>
-            </div>
+            
           </div>
         </div>
       </div>
