@@ -31,7 +31,7 @@ export default function Contact() {
               Get In <span className="text-yellow-300">Touch</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Ready to transform your trade business with AI? Contact us today for a free consultation and see how we can help you automate your operations.
+              Ready to grow your trade business in Geelong and Bellarine? Contact us today for a free consultation and see how we can help you win more jobs.
             </p>
           </div>
         </div>
@@ -45,10 +45,10 @@ export default function Contact() {
             <div className="space-y-8">
               <div>
                 <h2 className="text-3xl font-bold text-charcoal mb-6">
-                  Let's Start Your AI Journey
+                  Let's Grow Your Local Business
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                  Whether you're a solo tradie or run a team, we're here to help you implement AI solutions that will save time, increase leads, and grow your business.
+                  Whether you're a solo electrician or plumber, or run a team around Geelong and Bellarine, we're here to help you never miss a call, win more jobs, and grow your business with simple, effective solutions.
                 </p>
               </div>
               
@@ -93,7 +93,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-charcoal text-lg mb-1">Location</h3>
                     <p className="text-gray-600">Sydney, Australia</p>
-                    <p className="text-sm text-gray-500">Serving tradies across Australia</p>
+                    <p className="text-sm text-gray-500">Serving electricians & plumbers across Geelong & Bellarine</p>
                   </div>
                 </div>
               </div>
@@ -104,11 +104,11 @@ export default function Contact() {
                 <div className="space-y-3 text-sm">
                   <div>
                     <p className="font-medium text-charcoal">How quickly can I get started?</p>
-                    <p className="text-gray-600">Most setups are completed within 24-48 hours.</p>
+                    <p className="text-gray-600">Most local setups completed within 24-48 hours.</p>
                   </div>
                   <div>
                     <p className="font-medium text-charcoal">Do I need technical knowledge?</p>
-                    <p className="text-gray-600">No! We handle all the technical setup for you.</p>
+                    <p className="text-gray-600">No! We handle all the setup and come to you if needed.</p>
                   </div>
                   <div>
                     <p className="font-medium text-charcoal">Can I cancel anytime?</p>

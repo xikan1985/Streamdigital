@@ -10,50 +10,50 @@ export default function Plans() {
 
   const plans = [
     {
-      name: "Essential AI",
+      name: "Essential",
       price: "$250",
       period: "per month",
-      description: "Perfect for solo tradies and small teams getting started with AI automation",
+      description: "Perfect for solo electricians and plumbers getting started with smart business solutions",
       features: [
-        "24/7 AI Call Handling",
-        "Basic Appointment Booking",
+        "Miss Call Text Back Service",
+        "AI Agent for Appointment Booking",
+        "Simple CRM for Small Businesses",
+        "Basic Reputation Management",
         "Lead Capture & Follow-up",
-        "Email Integration",
-        "SMS Notifications",
-        "Basic Analytics Dashboard",
-        "Phone & Email Support",
+        "SMS & Email Notifications",
+        "Local Geelong & Bellarine Focus",
         "Setup & Training Included"
       ],
       limitations: [
         "Up to 200 calls per month",
         "Single phone number",
-        "Basic integrations only"
+        "Basic online presence"
       ],
       popular: false,
       icon: Phone
     },
     {
-      name: "Professional AI",
+      name: "Professional",
       price: "$350",
       period: "per month",
-      description: "Complete AI solution for growing trade businesses with advanced automation",
+      description: "Complete business growth solution for established electricians and plumbers in the region",
       features: [
-        "Everything in Essential AI",
-        "Advanced AI Agent for Appointments",
+        "Everything in Essential",
+        "Advanced Reputation Management",
+        "Paid Ads Management (Google, Meta, TikTok)",
+        "Advanced CRM with Job Tracking",
         "Multi-Channel Lead Management",
-        "Automated Review Collection",
-        "CRM Integration",
-        "Advanced Analytics & Reporting",
-        "Workflow Automation",
-        "Custom AI Training",
+        "Review Collection & Showcase",
+        "Priority Local Area Targeting",
+        "Custom Business Training",
         "Priority Support",
         "Multiple Phone Numbers",
         "Team Management Tools",
-        "Custom Integrations Available"
+        "Performance Analytics"
       ],
       limitations: [
         "Up to 500 calls per month",
-        "Additional usage available"
+        "Additional advertising budget separate"
       ],
       popular: true,
       icon: Zap
@@ -63,23 +63,23 @@ export default function Plans() {
   const features = [
     {
       icon: Phone,
-      title: "Never Miss a Call",
-      description: "AI answers every call professionally, even when you're on-site or after hours."
+      title: "Miss Call Text Back",
+      description: "Never miss a customer call again. Get instant text replies to follow up quickly and win more jobs in Geelong and Bellarine."
     },
     {
       icon: Calendar,
-      title: "Smart Booking",
-      description: "Automatically schedule appointments based on your availability and job requirements."
+      title: "AI Appointment Booking",
+      description: "Say goodbye to phone tag. Our AI handles bookings 24/7 so you get more jobs lined up automatically."
     },
     {
       icon: MessageCircle,
-      title: "Instant Responses",
-      description: "AI provides immediate responses to enquiries, improving lead conversion rates."
+      title: "Reputation Management",
+      description: "We handle your online reviews and ratings, making sure you look great to new customers in the region."
     },
     {
       icon: BarChart3,
-      title: "Business Insights",
-      description: "Track leads, conversion rates, and business performance with detailed analytics."
+      title: "Paid Ads Management",
+      description: "We run Google Ads, Meta, and TikTok campaigns to bring more jobs to local electricians and plumbers."
     }
   ];
 
@@ -95,7 +95,7 @@ export default function Plans() {
               Simple <span className="text-yellow-300">Pricing</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
-              Choose the AI solution that fits your trade business. No setup fees, no long-term contracts, cancel anytime.
+              Choose the solution that fits your trade business in Geelong and Bellarine. No setup fees, no long-term contracts, cancel anytime.
             </p>
             <div className="flex items-center justify-center space-x-4 text-sm">
               <div className="flex items-center space-x-2">
@@ -223,10 +223,10 @@ export default function Plans() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-4">
-              Why Choose Our <span className="text-primary">AI Solutions?</span>
+              Why Choose <span className="text-primary">Stream Digital?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our AI agents are specifically designed for trade businesses, understanding your industry and customer needs.
+              We're here to make life simpler for electricians and plumbers in Geelong and Bellarine. Our services save you time, win more customers, and grow your business.
             </p>
           </div>
           

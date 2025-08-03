@@ -4,20 +4,20 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       name: "Jake Morrison",
-      business: "Morrison Electrical",
-      content: "Never miss a call again! The AI handles all my bookings perfectly. I've increased my jobs by 40% since starting with Stream Digital.",
+      business: "Morrison Electrical, Geelong",
+      content: "The Miss Call Text Back service is brilliant! I never lose a customer call anymore. Since starting with Stream Digital, I've won 40% more jobs around Geelong.",
       initials: "JM"
     },
     {
       name: "Sarah Thompson",
-      business: "Thompson Plumbing",
-      content: "The time I save with automated scheduling is incredible. I can focus on actual plumbing work instead of admin tasks.",
+      business: "Thompson Plumbing, Bellarine",
+      content: "The AI booking system and CRM keep everything organised. I can focus on actual plumbing work instead of chasing paperwork. My customers love how professional everything is now.",
       initials: "ST"
     },
     {
       name: "Mike Rodriguez",
-      business: "Rodriguez Roofing",
-      content: "Game changer for my roofing business. The AI follows up with leads automatically and my conversion rate has doubled.",
+      business: "Rodriguez Electrical, Torquay",
+      content: "Stream Digital's reputation management and ads brought me heaps more customers around the Bellarine Peninsula. The whole system just works together perfectly.",
       initials: "MR"
     }
   ];
@@ -27,10 +27,10 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-4">
-            Tradies Love Our <span className="text-primary">AI Solutions</span>
+            Local Tradies Love <span className="text-primary">Stream Digital</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how AI is transforming trade businesses across Australia
+            See how electricians and plumbers in Geelong and Bellarine are growing their businesses with our simple, effective solutions
           </p>
         </div>
         
@@ -68,8 +68,8 @@ export default function TestimonialsSection() {
               <div className="w-10 h-10 bg-gradient-to-br from-secondary to-accent rounded-full border-2 border-white"></div>
             </div>
             <div className="text-left">
-              <p className="font-semibold text-charcoal">Join 500+ Happy Tradies</p>
-              <p className="text-sm text-gray-600">Trusted by professionals across Australia</p>
+              <p className="font-semibold text-charcoal">Join 200+ Happy Local Tradies</p>
+              <p className="text-sm text-gray-600">Trusted by electricians and plumbers across Geelong & Bellarine</p>
             </div>
           </div>
         </div>

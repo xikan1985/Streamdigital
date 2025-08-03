@@ -4,20 +4,20 @@ import { Button } from "@/components/ui/button";
 export default function BenefitsSection() {
   const benefits = [
     {
-      title: "Save 20+ Hours Per Week",
-      description: "Stop spending time on admin tasks and phone calls. Focus on the work that generates revenue."
+      title: "Never Miss a Lead",
+      description: "Miss Call Text Back and AI booking means every customer gets instant attention, even when you're busy on a job site."
     },
     {
-      title: "Increase Lead Conversion by 500%",
-      description: "Instant responses and professional handling ensure you never lose another potential customer."
+      title: "Win More Jobs",
+      description: "Professional reputation management and instant responses help you stand out from other electricians and plumbers in Geelong."
     },
     {
-      title: "Reduce Employee Overheads",
-      description: "AI handles customer service without the cost of hiring additional staff."
+      title: "Save Time & Money",
+      description: "Our CRM and automation handle admin tasks, so you can focus on the work that pays. No need for extra staff."
     },
     {
-      title: "Work-Life Balance",
-      description: "AI works around the clock so you don't have to. Enjoy evenings and weekends again."
+      title: "Grow Without Stress",
+      description: "Everything works together to bring you more customers while keeping your business organised and professional."
     }
   ];
 
@@ -28,10 +28,10 @@ export default function BenefitsSection() {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-6">
-                Why AI for Contractors is a <span className="text-primary">Game-Changer</span>
+                Why Stream Digital is <span className="text-primary">Perfect for Local Trades</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                AI takes care of the tasks that usually slow you down, so you can focus on what you do best.
+                We understand the challenges facing electricians and plumbers in Geelong and Bellarine. Our solutions are designed to make your life easier and your business more profitable.
               </p>
             </div>
             

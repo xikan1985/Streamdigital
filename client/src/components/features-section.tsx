@@ -4,33 +4,33 @@ export default function FeaturesSection() {
   const features = [
     {
       icon: Phone,
-      title: "24/7 AI Call Handling",
-      description: "Never miss a lead again. Our AI voice agents take calls, answer questions, and book appointments even when you're on site."
+      title: "Miss Call Text Back",
+      description: "Never miss a customer call again. Get an instant text reply to every missed call, so you can follow up quickly and win more jobs. Perfect for busy electricians and plumbers on the go in Geelong and Bellarine."
     },
     {
       icon: Calendar,
-      title: "Smart Appointment Booking",
-      description: "Automatically schedule jobs, send confirmations, and manage your calendar without lifting a finger."
+      title: "AI Agent to Book Appointments",
+      description: "Say goodbye to phone tag—our AI handles bookings 24/7 for Geelong and Bellarine electricians and plumbers. You get more jobs lined up and extra time to focus on your work."
     },
     {
       icon: MessageCircle,
-      title: "Instant Customer Responses",
-      description: "AI chatbots provide immediate responses to enquiries, improving your chances of winning jobs by up to 5000%."
+      title: "CRM for Small Businesses",
+      description: "Keep your customer details organised with our simple CRM. Track jobs, calls, and quotes in one easy spot. Stay on top of your business and impress clients with better service."
     },
     {
       icon: CheckCircle,
-      title: "Automated Review Collection",
-      description: "Build trust automatically by collecting and showcasing customer reviews without manual follow-up."
+      title: "Reputation Management",
+      description: "Boost your business reputation with our easy service. We handle your online reviews and ratings, making sure you look great to new customers in the region."
     },
     {
       icon: BarChart3,
-      title: "Business Analytics",
-      description: "Track leads, conversion rates, and business performance with detailed AI-powered insights."
+      title: "Paid Ads Management",
+      description: "Get more customers with our expert management. We run Google Ads, Meta, and TikTok campaigns to bring more jobs to electricians and plumbers in the Geelong and Bellarine area."
     },
     {
       icon: Zap,
-      title: "Workflow Automation",
-      description: "Automate follow-ups, quotes, and administrative tasks to systemise your entire business operation."
+      title: "Complete Business Growth",
+      description: "All services work together to save you time, win more customers, and grow your business—tailored specifically for trades in our local region."
     }
   ];
 
@@ -39,10 +39,10 @@ export default function FeaturesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-4">
-            AI That Works For <span className="text-primary">Your Business</span>
+            Services That Work For <span className="text-primary">Local Trades</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From missed calls to automated booking, our AI handles the business tasks that slow you down.
+            Simple, effective solutions designed specifically for electricians and plumbers in the Geelong and Bellarine region.
           </p>
         </div>
         

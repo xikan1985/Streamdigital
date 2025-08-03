@@ -16,12 +16,12 @@ export default function HeroSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                <span className="text-charcoal">Take Your Trade Business to the</span>
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Next Level</span>
-                <span className="text-charcoal"> with AI</span>
+                <span className="text-charcoal">Grow Your</span>
+                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Geelong & Bellarine</span>
+                <span className="text-charcoal"> Trade Business</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Stop missing leads and losing time on admin. Our AI agents handle calls, book appointments, and manage your customer interactions 24/7 – so you can focus on what you do best.
+                Helping electricians and plumbers in the Geelong and Bellarine region never miss a call, win more jobs, and grow with simple, effective AI solutions.
               </p>
             </div>
             
