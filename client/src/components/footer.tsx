@@ -45,7 +45,7 @@ export default function Footer() {
             © 2024 Stream Digital Geelong - AI & Automation Agency. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-4 md:mt-0">
-            Australian Business Number: 53744510019
+            ABN: 53744510019
           </p>
         </div>
       </div>
