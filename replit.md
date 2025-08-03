@@ -120,3 +120,5 @@ Preferred communication style: Simple, everyday language.
 - **Local Focus Update**: Updated all content to specifically target electricians and plumbers in Geelong and Bellarine region
 - **Service Propositions**: Integrated specific services including Miss Call Text Back, AI Appointment Booking, CRM, Reputation Management, and Paid Ads Management
 - **Features Page**: Created dedicated Features page with complete original landing page content
+- **SEO Optimization**: Comprehensive SEO implementation for keywords: Stream Digital, Stream Digital Geelong, Geelong AI agency, Geelong Automation agency
+- **Homepage Change**: Made Features/Services page the new homepage while keeping original home page accessible at /home
