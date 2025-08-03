@@ -11,7 +11,7 @@ export default function Plans() {
   const plans = [
     {
       name: "Essential",
-      price: "$250",
+      price: "$750",
       period: "per month",
       description: "Perfect for solo electricians and plumbers getting started with smart business solutions",
       features: [
@@ -34,7 +34,7 @@ export default function Plans() {
     },
     {
       name: "Professional",
-      price: "$350",
+      price: "$1,250",
       period: "per month",
       description: "Complete business growth solution for established electricians and plumbers in the region",
       features: [
