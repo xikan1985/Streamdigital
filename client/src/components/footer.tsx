@@ -24,16 +24,7 @@ export default function Footer() {
             </div>
           </div>
           
-          <div>
-            <h4 className="font-semibold mb-4">AI & Automation Services</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Miss Call Text Back</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">AI Appointment Booking</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">CRM Automation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Reputation Management</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Paid Ads Management</a></li>
-            </ul>
-          </div>
+
           
           <div>
             <h4 className="font-semibold mb-4">Geelong Service Areas</h4>
