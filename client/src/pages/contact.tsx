@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Phone, Mail, Clock, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 
@@ -55,34 +55,12 @@ export default function Contact() {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-charcoal text-lg mb-1">Call Us Today</h3>
-                    <p className="text-gray-600">1800 STREAM (1800 787 326)</p>
-                    <p className="text-sm text-gray-500">Free consultation available</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-charcoal text-lg mb-1">Email Support</h3>
                     <p className="text-gray-600">hello@streamdigital.com.au</p>
                     <p className="text-sm text-gray-500">We respond within 2 hours</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-charcoal text-lg mb-1">Support Hours</h3>
-                    <p className="text-gray-600">Monday - Friday, 9AM - 6PM AEST</p>
-                    <p className="text-sm text-gray-500">Extended hours available for urgent requests</p>
                   </div>
                 </div>
 
@@ -92,8 +70,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-charcoal text-lg mb-1">Location</h3>
-                    <p className="text-gray-600">Sydney, Australia</p>
-                    <p className="text-sm text-gray-500">Serving electricians & plumbers across Geelong & Bellarine</p>
+                    <p className="text-gray-600">Geelong, Australia</p>
+                    <p className="text-sm text-gray-500">Serving local service businesses across Geelong & Bellarine</p>
                   </div>
                 </div>
               </div>
