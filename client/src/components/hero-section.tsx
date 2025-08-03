@@ -21,7 +21,7 @@ export default function HeroSection() {
                 <span className="text-charcoal"> Trade Business</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Helping electricians and plumbers in the Geelong and Bellarine region never miss a call, win more jobs, and grow with simple, effective AI solutions.
+                Helping local service businesses in the Geelong and Bellarine region to win more jobs using simple and effective AI and Automation solutions.
               </p>
             </div>
             
