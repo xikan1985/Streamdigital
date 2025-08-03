@@ -86,7 +86,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-charcoal">Do I need technical knowledge?</p>
-                    <p className="text-gray-600">No! We handle all the setup and come to you if needed.</p>
+                    <p className="text-gray-600">No! We will handle the setup but will need your support to provide access to existing tools.</p>
                   </div>
                   <div>
                     <p className="font-medium text-charcoal">Can I cancel anytime?</p>
