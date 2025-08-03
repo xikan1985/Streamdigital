@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://streamdigital.com.au/sitemap.xml
+
+# Popular pages for crawling
+Crawl-delay: 1

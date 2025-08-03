@@ -39,10 +39,10 @@ export default function FeaturesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-4">
-            Services That Work For <span className="text-primary">Local Trades</span>
+            <span className="text-primary">Stream Digital</span> AI & Automation Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Simple, effective solutions designed specifically for electricians and plumbers in the Geelong and Bellarine region.
+            As Geelong's premier AI agency, we provide simple, effective automation solutions designed specifically for local service businesses in the Geelong and Bellarine region.
           </p>
         </div>
         

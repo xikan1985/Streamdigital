@@ -28,10 +28,10 @@ export default function BenefitsSection() {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-6">
-                Why Stream Digital is <span className="text-primary">Perfect for Local Trades</span>
+                Why Choose <span className="text-primary">Stream Digital Geelong</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                We understand the challenges facing electricians and plumbers in Geelong and Bellarine. Our solutions are designed to make your life easier and your business more profitable.
+                As Geelong's trusted AI and automation agency, we understand local businesses. Stream Digital's proven automation solutions help Geelong service businesses grow faster and more efficiently.
               </p>
             </div>
             

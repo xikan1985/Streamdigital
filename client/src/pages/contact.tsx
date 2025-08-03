@@ -28,10 +28,10 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-white">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-              Get In <span className="text-yellow-300">Touch</span>
+              Contact <span className="text-yellow-300">Stream Digital</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Ready to grow your trade business in Geelong and Bellarine? Contact us today for a free consultation and see how we can help you win more jobs.
+              Ready to partner with Geelong's leading AI agency? Contact Stream Digital today for a free consultation and discover how our automation solutions can help your business win more jobs.
             </p>
           </div>
         </div>

@@ -27,10 +27,10 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-4">
-            Local Tradies Love <span className="text-primary">Stream Digital</span>
+            Geelong Businesses Love <span className="text-primary">Stream Digital</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how electricians and plumbers in Geelong and Bellarine are growing their businesses with our simple, effective solutions
+            See how local service businesses in Geelong and Bellarine are growing with Stream Digital's AI and automation agency solutions
           </p>
         </div>
         

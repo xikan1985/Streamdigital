@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo className="text-white" />
             <p className="text-gray-400 leading-relaxed">
-              Helping tradies across Australia automate their businesses with intelligent AI solutions.
+              Stream Digital is Geelong's leading AI and automation agency, helping local service businesses throughout Geelong and Bellarine Peninsula grow with intelligent solutions.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
@@ -25,24 +25,24 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Solutions</h4>
+            <h4 className="font-semibold mb-4">AI & Automation Services</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">AI Call Handling</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Appointment Booking</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Lead Management</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Review Automation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Workflow AI</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Miss Call Text Back</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">AI Appointment Booking</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">CRM Automation</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Reputation Management</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Paid Ads Management</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Industries</h4>
+            <h4 className="font-semibold mb-4">Geelong Service Areas</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Electricians</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Plumbers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Builders</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Roofers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">All Trades</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Geelong Central</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Bellarine Peninsula</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Torquay & Surf Coast</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Geelong West</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Greater Geelong</a></li>
             </ul>
           </div>
           
@@ -60,7 +60,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Stream Digital. All rights reserved.
+            © 2024 Stream Digital Geelong - AI & Automation Agency. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-4 md:mt-0">
             Australian Business Number: 123 456 789

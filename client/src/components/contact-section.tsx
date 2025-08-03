@@ -25,10 +25,10 @@ export default function ContactSection() {
           <div className="text-white space-y-8">
             <div>
               <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-                Ready to Transform Your <span className="text-yellow-300">Trade Business?</span>
+                Ready to Partner with <span className="text-yellow-300">Geelong's AI Agency?</span>
               </h2>
               <p className="text-xl text-blue-100 leading-relaxed">
-                Start your 14-day free trial today and see how AI can revolutionise the way you work. No setup fees, no long-term commitments.
+                Contact Stream Digital today and discover how Geelong's leading automation agency can transform your business. Start your free trial - no setup fees, no long-term commitments.
               </p>
             </div>
             

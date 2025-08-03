@@ -92,10 +92,10 @@ export default function Plans() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-white">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-              Simple <span className="text-yellow-300">Pricing</span>
+              <span className="text-yellow-300">Stream Digital</span> Pricing
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
-              Choose the solution that fits your trade business in Geelong and Bellarine. No setup fees, no long-term contracts, cancel anytime.
+              Choose the AI and automation solution that fits your Geelong business. Stream Digital offers transparent pricing with no setup fees, no long-term contracts, cancel anytime.
             </p>
             <div className="flex items-center justify-center space-x-4 text-sm">
               <div className="flex items-center space-x-2">
