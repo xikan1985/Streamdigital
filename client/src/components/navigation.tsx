@@ -33,7 +33,7 @@ export default function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             <Link href="/features" className="text-charcoal hover:text-primary transition-colors">
-              Features
+              Services
             </Link>
             <Link href="/plans" className="text-charcoal hover:text-primary transition-colors">
               Plans
@@ -72,7 +72,7 @@ export default function Navigation() {
           <div className="md:hidden py-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4">
               <Link href="/features" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
-                Features
+                Services
               </Link>
               <Link href="/plans" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
                 Plans
