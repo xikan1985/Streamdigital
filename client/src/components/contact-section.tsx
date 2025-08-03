@@ -35,31 +35,11 @@ export default function ContactSection() {
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center">
-                  <Phone className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  <p className="font-semibold">Call Us Today</p>
-                  <p className="text-blue-100">1800 STREAM (1800 787 326)</p>
-                </div>
-              </div>
-              
-              <div className="flex items-center space-x-4">
-                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center">
                   <Mail className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <p className="font-semibold">Email Support</p>
-                  <p className="text-blue-100">hello@streamdigital.com.au</p>
-                </div>
-              </div>
-              
-              <div className="flex items-center space-x-4">
-                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center">
-                  <Clock className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  <p className="font-semibold">Support Hours</p>
-                  <p className="text-blue-100">Monday - Friday, 9AM - 6PM AEST</p>
+                  <p className="font-semibold">Get Started Today</p>
+                  <p className="text-blue-100">Use the form below to begin your free trial</p>
                 </div>
               </div>
             </div>
