@@ -5,17 +5,17 @@ export default function FeaturesSection() {
     {
       icon: Phone,
       title: "Miss Call Text Back",
-      description: "Never miss a customer call again. Get an instant text reply to every missed call, so you can follow up quickly and win more jobs. Perfect for busy electricians and plumbers on the go."
+      description: "Never miss a customer call again. Get an instant text reply to every missed call with initial job details, so you can follow up quickly with the right information and win more jobs."
     },
     {
       icon: Calendar,
       title: "AI Agent to Book Appointments",
-      description: "Say goodbye to phone tag—our AI handles bookings 24/7 for electricians and plumbers. You get more jobs lined up and extra time to focus on your work."
+      description: "Say goodbye to phone tag—our AI handles bookings 24/7 and gathers all the job details from customers. You get more jobs lined up with complete information so you're fully prepared before you arrive."
     },
     {
       icon: MessageCircle,
       title: "CRM for Small Businesses",
-      description: "Keep your customer details organised with our simple CRM. Track jobs, calls, and quotes in one easy spot. Stay on top of your business and impress clients with better service."
+      description: "Keep your customer details and job information organised with our simple CRM. Track jobs, calls, quotes, and customer requirements in one easy spot. Know exactly what each job needs before you arrive."
     },
     {
       icon: CheckCircle,
