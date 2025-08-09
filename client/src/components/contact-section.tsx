@@ -38,39 +38,29 @@ export default function ContactSection() {
                   <Mail className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <p className="font-semibold">Get Started Today</p>
-                  <p className="text-blue-100">Use the form below to begin your free trial</p>
+                  <p className="font-semibold">Book Your Consultation</p>
+                  <p className="text-blue-100">Schedule a free consultation to discuss your business needs</p>
                 </div>
               </div>
             </div>
           </div>
           
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
-            <h3 className="text-2xl font-bold text-charcoal mb-6">Start Your Free Trial</h3>
+            <h3 className="text-2xl font-bold text-charcoal mb-6">Book Your Free Consultation</h3>
             
-            {/* Go High Level Embedded Form */}
+            {/* Go High Level Booking Calendar */}
             <div className="w-full" style={{ minHeight: '600px' }}>
               <iframe
-                src="https://api.leadconnectorhq.com/widget/form/oNtoE6mrxKOyMDdnwN3q"
+                src="https://api.leadconnectorhq.com/widget/booking/ykymX0zOQuZv29WUv5S7"
                 style={{
                   width: '100%',
-                  height: '600px',
                   border: 'none',
-                  borderRadius: '4px'
+                  overflow: 'hidden',
+                  minHeight: '600px'
                 }}
-                id="inline-oNtoE6mrxKOyMDdnwN3q"
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="Marketing Form - Claim Offer"
-                data-height="593"
-                data-layout-iframe-id="inline-oNtoE6mrxKOyMDdnwN3q"
-                data-form-id="oNtoE6mrxKOyMDdnwN3q"
-                title="Marketing Form - Claim Offer"
+                scrolling="no"
+                id="ykymX0zOQuZv29WUv5S7_1754773601424"
+                title="Book Appointment"
               />
             </div>
           </div>
