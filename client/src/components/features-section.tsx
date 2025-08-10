@@ -22,11 +22,6 @@ export default function FeaturesSection() {
       icon: CheckCircle,
       title: "Reputation Management",
       description: "Automation follow-ups help you collect and publish reviews automatically."
-    },
-    {
-      icon: BarChart3,
-      title: "Paid Ads Management",
-      description: "We run Google Ads, Meta, and TikTok campaigns to bring more jobs to local tradies."
     }
   ];
 
