@@ -31,6 +31,7 @@ export default function Plans() {
         "Missed Call Text Back: Never miss a lead with our AI-powered text-back system",
         "Advanced White-Labeled CRM: Manage SMS, email, social media, and WhatsApp campaigns",
         "AI Agent Setup & Training: We configure and train your agents to align with your brand",
+        "Service AI: Ideal for high volume enquiries and save your admin or front desk teams with FAQs. Perfect for accommodations, restaurants and hotels",
         "Test & Approve: You review and approve all setups before they go live",
         "Review Automation: Boost your online ratings with automated review requests"
       ],
@@ -43,6 +44,7 @@ export default function Plans() {
       description: "Everything in the Done for You plan, plus managed social campaigns to drive qualified leads and grow your business.",
       features: [
         "All Done for You Features: Get the full suite of automation tools",
+        "Service AI: Ideal for high volume enquiries and save your admin or front desk teams with FAQs. Perfect for accommodations, restaurants and hotels",
         "Managed Social Campaigns: We design and manage targeted social media campaigns",
         "Pay-Per-Qualified-Lead: Only pay for leads that meet your agreed criteria",
         "Transparent Pricing: Lead costs typically $10–$50 per qualified lead",
