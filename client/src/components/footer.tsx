@@ -31,9 +31,9 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
+              <li><a href="/features" className="hover:text-white transition-colors">Services</a></li>
+              <li><a href="/plans" className="hover:text-white transition-colors">Pricing</a></li>
+              <li><a href="/resources" className="hover:text-white transition-colors">Resources</a></li>
               <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
@@ -41,7 +41,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Stream Digital - AI & Automation Agency. All rights reserved.
+            © 2025 Stream Digital. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-4 md:mt-0">
             ABN: 53744510019
