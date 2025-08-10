@@ -38,6 +38,9 @@ export default function Navigation() {
             <Link href="/plans" className="text-charcoal hover:text-primary transition-colors">
               Pricing
             </Link>
+            <Link href="/booking" className="text-charcoal hover:text-primary transition-colors">
+              Book Consultation
+            </Link>
             <Link href="/resources" className="text-charcoal hover:text-primary transition-colors">
               Resources
             </Link>
@@ -47,9 +50,9 @@ export default function Navigation() {
           </div>
           
           <div className="hidden md:block">
-            <Link href="/contact">
+            <Link href="/booking">
               <Button className="gradient-bg text-white hover:opacity-90 transition-opacity">
-                Get Started
+                Schedule Appointment Now
               </Button>
             </Link>
           </div>

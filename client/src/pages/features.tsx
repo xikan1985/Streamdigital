@@ -17,8 +17,8 @@ export default function Features() {
       <Navigation />
       <HeroSection />
       <FeaturesSection />
-      <SEOContent />
       <ContactSection />
+      <SEOContent />
       <Footer />
     </div>
   );
