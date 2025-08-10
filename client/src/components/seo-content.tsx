@@ -42,14 +42,9 @@ export default function SEOContent() {
             <h3 className="text-2xl font-semibold text-charcoal mb-4 text-center">
               Stream Digital Client Success
             </h3>
-            <p className="text-gray-700 text-center mb-6">
+            <p className="text-gray-700 text-center">
               We're passionate about helping Australian trade businesses automate their growth. Our proven AI automation solutions are designed specifically for small businesses who need to focus on revenue-generating work.
             </p>
-            <div className="text-center">
-              <p className="text-sm text-gray-600 italic">
-                "Stream Digital transformed how we handle customer enquiries. Our missed calls dropped to zero, and we're booking more jobs without adding staff." - Electrical Business Owner, Australia
-              </p>
-            </div>
           </div>
         </div>
       </div>
