@@ -54,7 +54,7 @@ export default function Plans() {
 
   const benefits = [
     {
-      title: "Tailored for Victoria",
+      title: "Tailored for Australia",
       description: "Our solutions are built for local SMBs, from tradies to cafes, ensuring you compete effectively in your market."
     },
     {
@@ -78,7 +78,7 @@ export default function Plans() {
               Choose Your <span className="text-yellow-300">Plan</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Tailored AI automation solutions to help Victorian small businesses thrive. No lock-in contracts, cancel anytime.
+              Tailored AI automation solutions to help Australian small businesses thrive. No lock-in contracts, cancel anytime.
             </p>
           </div>
         </div>
