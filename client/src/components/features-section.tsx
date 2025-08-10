@@ -15,7 +15,7 @@ export default function FeaturesSection() {
     {
       icon: MessageCircle,
       title: "CRM for Small Businesses",
-      description: "Plus you get an advanced CRM platform that automates personalized email and SMS campaigns. Effortlessly manage leads and bookings while staying compliant with our opt-out consent feature, saving you time and boosting revenue."
+      description: "Plus you get an advanced CRM platform that automates personalised email and SMS campaigns. Effortlessly manage leads and bookings while staying compliant with our opt-out consent feature, saving you time and boosting revenue."
     },
     {
       icon: CheckCircle,
