@@ -126,7 +126,15 @@ export default function Plans() {
                   ))}
                 </div>
 
-                <Button className="w-full py-3 text-lg gradient-bg text-white hover:opacity-90">
+                <Button 
+                  className="w-full py-3 text-lg gradient-bg text-white hover:opacity-90"
+                  onClick={() => {
+                    const contactSection = document.querySelector('#contact-form-section');
+                    if (contactSection) {
+                      contactSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
                   Get Started
                 </Button>
               </div>
@@ -159,7 +167,7 @@ export default function Plans() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-20 bg-gradient-to-br from-lightgrey to-white">
+      <section id="contact-form-section" className="py-20 bg-gradient-to-br from-lightgrey to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-charcoal mb-6">
