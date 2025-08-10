@@ -33,26 +33,9 @@ export default function Booking() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
-      {/* Hero Section */}
-      <section className="pt-24 pb-8 bg-gradient-to-br from-primary to-secondary">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center text-white">
-            <div className="w-16 h-16 gradient-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-              <Calendar className="w-8 h-8 text-white" />
-            </div>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-              Book Your <span className="text-yellow-300">Consultation</span>
-            </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Schedule a free consultation with our Stream Digital automation experts to discover how AI can transform your business operations.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Booking Calendar Section */}
-      <section className="py-12 bg-lightgrey">
+      <section className="pt-24 pb-12 bg-lightgrey">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-charcoal mb-6">
