@@ -38,7 +38,7 @@ export default function FeaturesSection() {
             <span className="text-primary">Stream Digital</span> AI & Automation Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We save you time and solve real world problems with:
+            We save you time and solve real world problems with the following service with one monthly bundle.
           </p>
         </div>
         
