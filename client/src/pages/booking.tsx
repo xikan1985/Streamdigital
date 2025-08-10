@@ -37,22 +37,6 @@ export default function Booking() {
       {/* Booking Calendar Section */}
       <section className="pt-24 pb-12 bg-lightgrey">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-charcoal mb-6">
-              Schedule Your Free Consultation
-            </h2>
-            <div className="flex items-center justify-center space-x-6 text-gray-600 mb-8">
-              <div className="flex items-center space-x-2">
-                <Clock className="w-5 h-5 text-primary" />
-                <span>30-minute session</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Calendar className="w-5 h-5 text-primary" />
-                <span>Choose your preferred time</span>
-              </div>
-            </div>
-          </div>
-          
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
             <div className="w-full" style={{ minHeight: '600px' }}>
               <iframe
