@@ -20,7 +20,7 @@ export default function FeaturesSection() {
     {
       icon: CheckCircle,
       title: "Reputation Management",
-      description: "AI follow-ups help you collect and publish reviews automatically."
+      description: "Automation follow-ups help you collect and publish reviews automatically."
     },
     {
       icon: BarChart3,
