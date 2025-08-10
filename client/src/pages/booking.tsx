@@ -10,16 +10,17 @@ export default function Booking() {
     document.title = "Book Your Consultation | Stream Digital | Free AI Automation Assessment";
   }, []);
 
-  // Load Go High Level booking script
+  // Load Go High Level form embed script
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = 'https://link.msgsndr.com/js/booking_embed.js';
+    script.src = 'https://link.msgsndr.com/js/form_embed.js';
+    script.type = 'text/javascript';
     script.async = true;
     document.body.appendChild(script);
 
     return () => {
       // Cleanup script on unmount
-      const existingScript = document.querySelector('script[src="https://link.msgsndr.com/js/booking_embed.js"]');
+      const existingScript = document.querySelector('script[src="https://link.msgsndr.com/js/form_embed.js"]');
       if (existingScript) {
         document.body.removeChild(existingScript);
       }
@@ -88,13 +89,11 @@ export default function Booking() {
                 src="https://api.leadconnectorhq.com/widget/booking/ykymX0zOQuZv29WUv5S7"
                 style={{
                   width: '100%',
-                  height: '100%',
-                  minHeight: '600px',
                   border: 'none',
-                  borderRadius: '4px'
+                  overflow: 'hidden'
                 }}
-                id="booking-ykymX0zOQuZv29WUv5S7"
-                data-layout="{'id':'INLINE'}"
+                scrolling="no"
+                id="ykymX0zOQuZv29WUv5S7_1754793283209"
                 title="Stream Digital Consultation Booking"
               />
             </div>
