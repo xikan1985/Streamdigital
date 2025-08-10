@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Star } from "lucide-react";
 import { useEffect } from "react";
+import { Link } from "wouter";
 
 export default function Plans() {
   // Set page title for SEO
@@ -129,15 +130,25 @@ export default function Plans() {
                   ))}
                 </div>
 
-                <Button 
-                  className={`w-full py-3 text-lg ${
-                    plan.popular 
-                      ? 'gradient-bg text-white hover:opacity-90' 
-                      : 'bg-charcoal text-white hover:bg-gray-800'
-                  }`}
-                >
-                  Get Started
-                </Button>
+                <div className="space-y-3">
+                  <Link href="/booking">
+                    <Button 
+                      className={`w-full py-3 text-lg ${
+                        plan.popular 
+                          ? 'gradient-bg text-white hover:opacity-90' 
+                          : 'gradient-bg text-white hover:opacity-90'
+                      }`}
+                    >
+                      Schedule Consultation
+                    </Button>
+                  </Link>
+                  <Button 
+                    variant="outline"
+                    className="w-full py-3 text-lg border-2 border-primary text-primary hover:bg-primary hover:text-white"
+                  >
+                    Get Started
+                  </Button>
+                </div>
               </div>
             ))}
           </div>
