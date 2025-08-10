@@ -47,7 +47,7 @@ export default function ContactSection() {
             <h3 className="text-2xl font-bold text-charcoal mb-6">Free Consultation - 30 Day Trial After Setup</h3>
             
             {/* Go High Level Booking Calendar */}
-            <div className="w-full" style={{ minHeight: '600px' }}>
+            <div className="w-full mb-8" style={{ minHeight: '600px' }}>
               <iframe
                 src="https://api.leadconnectorhq.com/widget/booking/ykymX0zOQuZv29WUv5S7"
                 style={{
@@ -60,6 +60,37 @@ export default function ContactSection() {
                 id="ykymX0zOQuZv29WUv5S7_1754773601424"
                 title="Book Appointment"
               />
+            </div>
+
+            {/* Contact Form for those not ready to book */}
+            <div className="w-full border-t border-gray-200 pt-8">
+              <h4 className="text-lg font-semibold text-charcoal mb-4 text-center">
+                Not ready to book? Send us a message instead
+              </h4>
+              <div className="w-full" style={{ minHeight: '704px' }}>
+                <iframe
+                  src="/widget/form/oNtoE6mrxKOyMDdnwN3q"
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    border: 'none',
+                    borderRadius: '4px'
+                  }}
+                  id="inline-oNtoE6mrxKOyMDdnwN3q"
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Stream Digital Contact Us form"
+                  data-height="704"
+                  data-layout-iframe-id="inline-oNtoE6mrxKOyMDdnwN3q"
+                  data-form-id="oNtoE6mrxKOyMDdnwN3q"
+                  title="Stream Digital Contact Us form"
+                />
+              </div>
             </div>
           </div>
         </div>
