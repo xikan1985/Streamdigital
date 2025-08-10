@@ -41,11 +41,11 @@ export default function Plans() {
       name: "Done for You + Lead Generation", 
       price: "$499",
       period: "per month + Lead Cost",
-      description: "Everything in the Done for You plan, plus bespoke converting landing page and managed social campaigns to drive qualified leads and grow your business.",
+      description: "Everything in the Done for You plan, plus a bespoke converting landing page and managed social campaigns to drive qualified leads and grow your business.",
       features: [
         "All Done for You Features: Get the full suite of automation tools",
         "Service AI: Ideal for high volume enquiries and save your admin or front desk teams with FAQs. Perfect for accommodations, restaurants and hotels",
-        "Bespoke Converting Landing Page: Custom-built landing page designed to convert visitors into customers",
+        "Bespoke Converting Landing Page: A custom-built landing page designed to convert visitors into customers",
         "Managed Social Campaigns: We design and manage targeted social media campaigns",
         "Pay-Per-Qualified-Lead: Only pay for leads that meet your agreed criteria",
         "Transparent Pricing: Lead costs typically $50–$100 per qualified lead",
