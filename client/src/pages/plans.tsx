@@ -113,11 +113,7 @@ export default function Plans() {
                 )}
                 
                 <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold text-charcoal mb-2">{plan.name}</h3>
-                  <div className="mb-4">
-                    <span className="text-4xl font-bold text-primary">{plan.price}</span>
-                    <span className="text-gray-600 ml-2">{plan.period}</span>
-                  </div>
+                  <h3 className="text-2xl font-bold text-charcoal mb-4">{plan.name}</h3>
                   <p className="text-gray-600">{plan.description}</p>
                 </div>
 
