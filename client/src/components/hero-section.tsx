@@ -33,15 +33,6 @@ export default function HeroSection() {
               >
                 Start Free Trial
               </Button>
-              <Link href="/booking">
-                <Button 
-                  variant="outline" 
-                  className="border-2 border-primary text-primary px-8 py-4 text-lg hover:bg-primary hover:text-white transition-all"
-                  size="lg"
-                >
-                  Schedule Appointment Now
-                </Button>
-              </Link>
             </div>
             
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-6 space-y-3 sm:space-y-0 text-sm text-gray-500">
