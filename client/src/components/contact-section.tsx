@@ -1,5 +1,7 @@
 import { useEffect } from "react";
-import { Phone, Mail, Clock } from "lucide-react";
+import { Phone, Mail, Clock, Calendar } from "lucide-react";
+import { Link } from "wouter";
+import { Button } from "@/components/ui/button";
 
 export default function ContactSection() {
   // Load Go High Level form script
@@ -46,20 +48,22 @@ export default function ContactSection() {
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
             <h3 className="text-2xl font-bold text-charcoal mb-6">Free Consultation - 30 Day Trial After Setup</h3>
             
-            {/* Go High Level Booking Calendar */}
-            <div className="w-full mb-8" style={{ minHeight: '600px' }}>
-              <iframe
-                src="https://api.leadconnectorhq.com/widget/booking/ykymX0zOQuZv29WUv5S7"
-                style={{
-                  width: '100%',
-                  border: 'none',
-                  overflow: 'hidden',
-                  minHeight: '600px'
-                }}
-                scrolling="no"
-                id="ykymX0zOQuZv29WUv5S7_1754773601424"
-                title="Book Appointment"
-              />
+            {/* Booking Button */}
+            <div className="text-center mb-8 p-8 bg-lightgrey rounded-xl">
+              <div className="w-16 h-16 gradient-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <Calendar className="w-8 h-8 text-white" />
+              </div>
+              <h4 className="text-xl font-semibold text-charcoal mb-4">
+                Ready to Get Started?
+              </h4>
+              <p className="text-gray-600 mb-6">
+                Book your free 30-minute consultation to discover how Stream Digital can automate your business growth.
+              </p>
+              <Link href="/booking">
+                <Button className="gradient-bg text-white px-8 py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105">
+                  Schedule Your Consultation
+                </Button>
+              </Link>
             </div>
 
             {/* Contact Form for those not ready to book */}
