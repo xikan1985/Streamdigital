@@ -15,7 +15,7 @@ export default function FeaturesSection() {
     {
       icon: MessageCircle,
       title: "CRM for Small Businesses",
-      description: "Quoting, scheduling, chasing reviews, answering the same questions. AI takes those tasks off your plate."
+      description: "Plus you get an advanced CRM platform that automates personalized email and SMS campaigns. Effortlessly manage leads and bookings while staying compliant with our opt-out consent feature, saving you time and boosting revenue."
     },
     {
       icon: CheckCircle,
