@@ -12,19 +12,15 @@ export default function Booking() {
 
   // Load Go High Level form embed script
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://link.msgsndr.com/js/form_embed.js';
-    script.type = 'text/javascript';
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      // Cleanup script on unmount
-      const existingScript = document.querySelector('script[src="https://link.msgsndr.com/js/form_embed.js"]');
-      if (existingScript) {
-        document.body.removeChild(existingScript);
-      }
-    };
+    // Check if script already exists
+    const existingScript = document.querySelector('script[src="https://link.msgsndr.com/js/form_embed.js"]');
+    if (!existingScript) {
+      const script = document.createElement('script');
+      script.src = 'https://link.msgsndr.com/js/form_embed.js';
+      script.type = 'text/javascript';
+      script.async = true;
+      document.body.appendChild(script);
+    }
   }, []);
 
   const benefits = [
@@ -87,14 +83,17 @@ export default function Booking() {
             <div className="w-full" style={{ minHeight: '600px' }}>
               <iframe
                 src="https://api.leadconnectorhq.com/widget/booking/ykymX0zOQuZv29WUv5S7"
+                width="100%"
+                height="600"
                 style={{
-                  width: '100%',
                   border: 'none',
                   overflow: 'hidden'
                 }}
                 scrolling="no"
+                frameBorder="0"
                 id="ykymX0zOQuZv29WUv5S7_1754793283209"
                 title="Stream Digital Consultation Booking"
+                allowFullScreen
               />
             </div>
           </div>
