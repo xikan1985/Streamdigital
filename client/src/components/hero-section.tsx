@@ -16,9 +16,9 @@ export default function HeroSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                <span className="text-charcoal">Geelong's Leading</span>
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> AI & Automation</span>
-                <span className="text-charcoal"> Agency</span>
+                <span className="text-charcoal">Helping you to build</span>
+                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> practical AI Solutions</span>
+                <span className="text-charcoal"> that drives real revenue outcomes</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Helping local service businesses in the Geelong and Bellarine region to win more jobs using simple and effective AI and Automation solutions.
