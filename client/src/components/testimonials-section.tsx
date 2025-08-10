@@ -4,20 +4,20 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       name: "Jake Morrison",
-      business: "Morrison Electrical, Geelong",
-      content: "The Miss Call Text Back service is brilliant! I never lose a customer call anymore. Since starting with Stream Digital, I've won 40% more jobs around Geelong.",
+      business: "Morrison Electrical",
+      content: "The Miss Call Text Back service is brilliant! I never lose a customer call anymore. Since starting with Stream Digital, I've won 40% more jobs.",
       initials: "JM"
     },
     {
       name: "Sarah Thompson",
-      business: "Thompson Plumbing, Bellarine",
+      business: "Thompson Plumbing",
       content: "The AI booking system and CRM keep everything organised. I can focus on actual plumbing work instead of chasing paperwork. My customers love how professional everything is now.",
       initials: "ST"
     },
     {
       name: "Mike Rodriguez",
       business: "Rodriguez Electrical, Torquay",
-      content: "Stream Digital's reputation management and ads brought me heaps more customers around the Bellarine Peninsula. The whole system just works together perfectly.",
+      content: "Stream Digital's reputation management and ads brought me heaps more customers. The whole system just works together perfectly.",
       initials: "MR"
     }
   ];
@@ -27,10 +27,10 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-4">
-            Geelong Businesses Love <span className="text-primary">Stream Digital</span>
+            Local Businesses Love <span className="text-primary">Stream Digital</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how local service businesses in Geelong and Bellarine are growing with Stream Digital's AI and automation agency solutions
+            See how local service businesses are growing with Stream Digital's AI and automation agency solutions
           </p>
         </div>
         

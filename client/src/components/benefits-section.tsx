@@ -9,7 +9,7 @@ export default function BenefitsSection() {
     },
     {
       title: "Win More Jobs",
-      description: "Professional reputation management and instant responses help you stand out from other electricians and plumbers in Geelong."
+      description: "Professional reputation management and instant responses help you stand out from other electricians and plumbers."
     },
     {
       title: "Save Time & Money",
@@ -28,10 +28,10 @@ export default function BenefitsSection() {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl lg:text-5xl font-bold text-charcoal mb-6">
-                Why Choose <span className="text-primary">Stream Digital Geelong</span>
+                Why Choose <span className="text-primary">Stream Digital</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                As Geelong's trusted AI and automation agency, we understand local businesses. Stream Digital's proven automation solutions help Geelong service businesses grow faster and more efficiently.
+                As a trusted AI and automation agency, we understand local businesses. Stream Digital's proven automation solutions help service businesses grow faster and more efficiently.
               </p>
             </div>
             

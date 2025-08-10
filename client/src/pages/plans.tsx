@@ -21,7 +21,7 @@ export default function Plans() {
         "Basic Reputation Management",
         "Lead Capture & Follow-up",
         "SMS & Email Notifications",
-        "Local Geelong & Bellarine Focus",
+        "Australia-wide Service Area",
         "Setup & Training Included"
       ],
       limitations: [
@@ -64,7 +64,7 @@ export default function Plans() {
     {
       icon: Phone,
       title: "Miss Call Text Back",
-      description: "Never miss a customer call again. Get instant text replies to follow up quickly and win more jobs in Geelong and Bellarine."
+      description: "Never miss a customer call again. Get instant text replies to follow up quickly and win more jobs."
     },
     {
       icon: Calendar,
@@ -74,12 +74,12 @@ export default function Plans() {
     {
       icon: MessageCircle,
       title: "Reputation Management",
-      description: "We handle your online reviews and ratings, making sure you look great to new customers in the region."
+      description: "We handle your online reviews and ratings, making sure you look great to new customers."
     },
     {
       icon: BarChart3,
       title: "Paid Ads Management",
-      description: "We run Google Ads, Meta, and TikTok campaigns to bring more jobs to local electricians and plumbers."
+      description: "We run Google Ads, Meta, and TikTok campaigns to bring more jobs to local tradies."
     }
   ];
 
@@ -226,7 +226,7 @@ export default function Plans() {
               Why Choose <span className="text-primary">Stream Digital?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're here to make life simpler for electricians and plumbers in Geelong and Bellarine. Our services save you time, win more customers, and grow your business.
+              We're here to make life simpler for electricians and plumbers. Our services save you time, win more customers, and grow your business.
             </p>
           </div>
           

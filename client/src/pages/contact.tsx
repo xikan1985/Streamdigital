@@ -31,7 +31,7 @@ export default function Contact() {
               Contact <span className="text-yellow-300">Stream Digital</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Ready to partner with Geelong's leading AI agency? Contact Stream Digital today for a free consultation and discover how our automation solutions can help your business win more jobs.
+              Ready to partner with Australia's leading AI agency? Contact Stream Digital today for a free consultation and discover how our automation solutions can help your business win more jobs.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Contact() {
                   Let's Grow Your Local Business
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                  Whether you're a solo electrician or plumber, or run a team around Geelong and Bellarine, we're here to help you never miss a call, win more jobs, and grow your business with simple, effective solutions.
+                  Whether you're a solo electrician or plumber, or run a team, we're here to help you never miss a call, win more jobs, and grow your business with simple, effective solutions.
                 </p>
               </div>
               
@@ -70,8 +70,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-charcoal text-lg mb-1">Location</h3>
-                    <p className="text-gray-600">Geelong, Australia</p>
-                    <p className="text-sm text-gray-500">Serving local service businesses across Geelong & Bellarine</p>
+                    <p className="text-gray-600">Australia</p>
+                    <p className="text-sm text-gray-500">Serving local service businesses Australia-wide</p>
                   </div>
                 </div>
               </div>

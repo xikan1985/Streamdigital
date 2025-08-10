@@ -85,7 +85,7 @@ export function Privacy() {
                   <strong>Email:</strong> <a href="mailto:hello@streamdigital.com.au" className="text-blue-300 hover:text-blue-200 underline">hello@streamdigital.com.au</a>
                 </p>
                 <p>
-                  We're here to help small businesses like electricians and plumbers in Geelong and Bellarine stay private and secure while using our services.
+                  We're here to help small businesses like electricians and plumbers stay private and secure while using our services.
                 </p>
               </section>
 

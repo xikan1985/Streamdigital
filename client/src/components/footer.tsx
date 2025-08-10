@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo className="text-white" />
             <p className="text-gray-400 leading-relaxed">
-              Stream Digital is Geelong's leading AI and automation agency, helping local service businesses throughout Geelong and Bellarine Peninsula grow with intelligent solutions.
+              Stream Digital is Australia's leading AI and automation agency, helping local service businesses grow with intelligent solutions.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
@@ -41,7 +41,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Stream Digital Geelong - AI & Automation Agency. All rights reserved.
+            © 2024 Stream Digital - AI & Automation Agency. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-4 md:mt-0">
             ABN: 53744510019
