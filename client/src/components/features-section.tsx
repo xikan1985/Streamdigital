@@ -5,32 +5,32 @@ export default function FeaturesSection() {
     {
       icon: Phone,
       title: "Miss Call Text Back",
-      description: "Never miss a customer call again. Get an instant text reply to every missed call with initial job details, so you can follow up quickly with the right information and win more jobs."
+      description: "You're on the tools. Your AI answers the phone, books jobs in your calendar, and collects details from leads you would've lost."
     },
     {
       icon: Calendar,
       title: "AI Agent to Book Appointments",
-      description: "Say goodbye to phone tag—our AI handles bookings 24/7 and gathers all the job details from customers. You get complete information before you pick up the phone to speak to the customer, and can schedule a time to call back."
+      description: "AI replies instantly via chat, Messenger or email—so you stay ahead of competitors."
     },
     {
       icon: MessageCircle,
       title: "CRM for Small Businesses",
-      description: "Keep your customer details and job information organised with our simple CRM. Track jobs, calls, quotes, and customer requirements in one easy spot. Know exactly what each job needs before you arrive."
+      description: "Quoting, scheduling, chasing reviews, answering the same questions. AI takes those tasks off your plate."
     },
     {
       icon: CheckCircle,
       title: "Reputation Management",
-      description: "Boost your business reputation with our easy service. We handle your online reviews and ratings, making sure you look great to new customers in the region."
+      description: "AI follow-ups help you collect and publish reviews automatically."
     },
     {
       icon: BarChart3,
       title: "Paid Ads Management",
-      description: "Get more customers with our expert management. We run Google Ads, Meta, and TikTok campaigns to bring more jobs to electricians and plumbers."
+      description: "We run Google Ads, Meta, and TikTok campaigns to bring more jobs to local tradies."
     },
     {
       icon: Zap,
       title: "Complete Business Growth",
-      description: "All services work together to save you time, win more customers, and grow your business—tailored specifically for trades in our local region."
+      description: "All services work together to save you time, win more customers, and grow your business."
     }
   ];
 
