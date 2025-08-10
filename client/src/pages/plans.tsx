@@ -34,7 +34,7 @@ export default function Plans() {
         "Test & Approve: You review and approve all setups before they go live",
         "Review Automation: Boost your online ratings with automated review requests"
       ],
-      popular: false
+      popular: true
     },
     {
       name: "Done for You + Lead Generation", 
@@ -48,7 +48,7 @@ export default function Plans() {
         "Transparent Pricing: Lead costs typically $10–$50 per qualified lead",
         "Industry Optimized: Campaigns tailored for trades, hospitality, retail"
       ],
-      popular: true
+      popular: false
     }
   ];
 
