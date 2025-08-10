@@ -48,52 +48,58 @@ export default function ContactSection() {
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
             <h3 className="text-2xl font-bold text-charcoal mb-6">Free Consultation - 30 Day Trial After Setup</h3>
             
-            {/* Booking Button */}
-            <div className="text-center mb-8 p-8 bg-lightgrey rounded-xl">
-              <div className="w-16 h-16 gradient-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                <Calendar className="w-8 h-8 text-white" />
+            {/* Two-column layout for desktop */}
+            <div className="grid lg:grid-cols-2 gap-8">
+              {/* Booking Button */}
+              <div className="text-center p-8 bg-lightgrey rounded-xl">
+                <div className="w-16 h-16 gradient-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                  <Calendar className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-xl font-semibold text-charcoal mb-4">
+                  Ready to Get Started?
+                </h4>
+                <p className="text-gray-600 mb-6">
+                  Book your free 30-minute consultation to discover how Stream Digital can automate your business growth.
+                </p>
+                <Link href="/booking">
+                  <Button className="gradient-bg text-white px-8 py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105">
+                    Schedule Your Consultation
+                  </Button>
+                </Link>
               </div>
-              <h4 className="text-xl font-semibold text-charcoal mb-4">
-                Ready to Get Started?
-              </h4>
-              <p className="text-gray-600 mb-6">
-                Book your free 30-minute consultation to discover how Stream Digital can automate your business growth.
-              </p>
-              <Link href="/booking">
-                <Button className="gradient-bg text-white px-8 py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105">
-                  Schedule Your Consultation
-                </Button>
-              </Link>
-            </div>
 
-            {/* Contact Form for those not ready to book */}
-            <div className="w-full border-t border-gray-200 pt-8">
-              <h4 className="text-lg font-semibold text-charcoal mb-4 text-center">
-                Not ready to book? Send us a message instead
-              </h4>
-              <div className="w-full" style={{ minHeight: '704px' }}>
-                <iframe
-                  src="https://api.leadconnectorhq.com/widget/form/oNtoE6mrxKOyMDdnwN3q"
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    border: 'none',
-                    borderRadius: '4px'
-                  }}
-                  id="inline-oNtoE6mrxKOyMDdnwN3q"
-                  data-layout="{'id':'INLINE'}"
-                  data-trigger-type="alwaysShow"
-                  data-trigger-value=""
-                  data-activation-type="alwaysActivated"
-                  data-activation-value=""
-                  data-deactivation-type="neverDeactivate"
-                  data-deactivation-value=""
-                  data-form-name="Stream Digital Contact Us form"
-                  data-height="704"
-                  data-layout-iframe-id="inline-oNtoE6mrxKOyMDdnwN3q"
-                  data-form-id="oNtoE6mrxKOyMDdnwN3q"
-                  title="Stream Digital Contact Us form"
-                />
+              {/* Contact Form for those not ready to book */}
+              <div className="p-8 bg-gray-50 rounded-xl">
+                <h4 className="text-xl font-semibold text-charcoal mb-4 text-center">
+                  Not Ready to Book?
+                </h4>
+                <p className="text-gray-600 mb-6 text-center">
+                  Send us a message and we'll get back to you with more information about how Stream Digital can help your business.
+                </p>
+                <div className="w-full" style={{ minHeight: '400px' }}>
+                  <iframe
+                    src="https://api.leadconnectorhq.com/widget/form/oNtoE6mrxKOyMDdnwN3q"
+                    style={{
+                      width: '100%',
+                      height: '400px',
+                      border: 'none',
+                      borderRadius: '4px'
+                    }}
+                    id="inline-oNtoE6mrxKOyMDdnwN3q"
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="Stream Digital Contact Us form"
+                    data-height="400"
+                    data-layout-iframe-id="inline-oNtoE6mrxKOyMDdnwN3q"
+                    data-form-id="oNtoE6mrxKOyMDdnwN3q"
+                    title="Stream Digital Contact Us form"
+                  />
+                </div>
               </div>
             </div>
           </div>
