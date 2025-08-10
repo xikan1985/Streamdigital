@@ -35,7 +35,7 @@ export default function Booking() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-primary to-secondary">
+      <section className="pt-24 pb-8 bg-gradient-to-br from-primary to-secondary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-white">
             <div className="w-16 h-16 gradient-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
@@ -44,24 +44,15 @@ export default function Booking() {
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
               Book Your <span className="text-yellow-300">Consultation</span>
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
+            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Schedule a free consultation with our Stream Digital automation experts to discover how AI can transform your business operations.
             </p>
-            
-            <div className="flex flex-wrap justify-center gap-4 mb-8">
-              {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-                  <CheckCircle className="w-5 h-5 text-green-300" />
-                  <span className="text-sm">{benefit}</span>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
 
       {/* Booking Calendar Section */}
-      <section className="py-20 bg-lightgrey">
+      <section className="py-12 bg-lightgrey">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-charcoal mb-6">
