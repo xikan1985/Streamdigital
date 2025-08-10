@@ -26,11 +26,6 @@ export default function FeaturesSection() {
       icon: BarChart3,
       title: "Paid Ads Management",
       description: "We run Google Ads, Meta, and TikTok campaigns to bring more jobs to local tradies."
-    },
-    {
-      icon: Zap,
-      title: "Complete Business Growth",
-      description: "All services work together to save you time, win more customers, and grow your business."
     }
   ];
 
