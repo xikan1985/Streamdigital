@@ -14,11 +14,6 @@ export default function FeaturesSection() {
       description: "AI replies instantly via chat, Messenger or email—so you stay ahead of competitors."
     },
     {
-      icon: MessageCircle,
-      title: "CRM for Small Businesses",
-      description: "Plus you get an advanced CRM platform that automates personalised email and SMS campaigns. Effortlessly manage leads and bookings while staying compliant with our opt-out consent feature, saving you time and boosting revenue."
-    },
-    {
       icon: CheckCircle,
       title: "Reputation Management",
       description: "Automation follow-ups help you collect and publish reviews automatically."
@@ -61,7 +56,15 @@ export default function FeaturesSection() {
             Every bundle comes with these essential integrations to maximise your business efficiency
           </p>
           
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-20">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-20">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
+              <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4 mx-auto">
+                <MessageCircle className="w-6 h-6 text-white" />
+              </div>
+              <h4 className="text-lg font-semibold text-charcoal mb-2">CRM for Small Businesses</h4>
+              <p className="text-gray-600 text-sm">Advanced CRM platform that automates personalised email and SMS campaigns. Effortlessly manage leads and bookings while staying compliant with opt-out consent features.</p>
+            </div>
+            
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
               <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <Share2 className="w-6 h-6 text-white" />
