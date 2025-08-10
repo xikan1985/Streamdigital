@@ -38,11 +38,11 @@ export default function Booking() {
       <section className="pt-24 pb-12 bg-lightgrey">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
-            <div className="w-full" style={{ minHeight: '600px' }}>
+            <div className="w-full" style={{ minHeight: '800px' }}>
               <iframe
                 src="https://api.leadconnectorhq.com/widget/booking/ykymX0zOQuZv29WUv5S7"
                 width="100%"
-                height="600"
+                height="800"
                 style={{
                   border: 'none',
                   overflow: 'hidden'
