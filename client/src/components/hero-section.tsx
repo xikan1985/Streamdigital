@@ -20,7 +20,7 @@ export default function HeroSection() {
                 <span className="text-charcoal"> that drive real revenue</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                AI isn't the future. It's already helping tradies answer missed calls, qualify better jobs, and follow up with clients – automatically. If you're still stuck quoting at night or chasing leads between jobs, AI can handle the admin work so you can grow without hiring extra staff.
+                Stuck answering calls all day while trying to run jobs? AI handles your missed calls, gets job details and photos, then schedules callbacks – so you can focus on the work that pays.
               </p>
             </div>
             
