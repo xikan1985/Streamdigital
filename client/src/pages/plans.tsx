@@ -126,15 +126,9 @@ export default function Plans() {
                   ))}
                 </div>
 
-                {plan.popular ? (
-                  <Button className="w-full py-3 text-lg gradient-bg text-white hover:opacity-90">
-                    Get Started
-                  </Button>
-                ) : (
-                  <Button className="w-full py-3 text-lg bg-gray-800 text-white hover:bg-gray-700 border-0">
-                    Get Started
-                  </Button>
-                )}
+                <Button className="w-full py-3 text-lg gradient-bg text-white hover:opacity-90">
+                  Get Started
+                </Button>
               </div>
             ))}
           </div>
