@@ -46,7 +46,7 @@ export default function ContactSection() {
           </div>
           
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
-            <h3 className="text-2xl font-bold text-charcoal mb-6">Start Your 14 Day Trial - No Obligation</h3>
+            <h3 className="text-2xl font-bold text-charcoal mb-6">Free Consultation - 30 Day Trial After Setup</h3>
             
             {/* Go High Level Booking Calendar */}
             <div className="w-full" style={{ minHeight: '600px' }}>

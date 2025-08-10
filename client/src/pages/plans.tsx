@@ -95,20 +95,20 @@ export default function Plans() {
               <span className="text-yellow-300">Stream Digital</span> Pricing
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
-              Choose the AI and automation solution that fits your Geelong business. Stream Digital offers transparent pricing with no setup fees, no long-term contracts, cancel anytime.
+              Choose the AI and automation solution that fits your business. Free consultation with no obligation, 30-day trial starts after complete setup.
             </p>
             <div className="flex items-center justify-center space-x-4 text-sm">
               <div className="flex items-center space-x-2">
                 <Check className="w-5 h-5 text-green-300" />
-                <span>14-day free trial</span>
+                <span>Free consultation</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Check className="w-5 h-5 text-green-300" />
-                <span>No setup fees</span>
+                <span>30-day trial after setup</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Check className="w-5 h-5 text-green-300" />
-                <span>Cancel anytime</span>
+                <span>Month notice to cancel</span>
               </div>
             </div>
           </div>

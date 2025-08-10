@@ -44,15 +44,15 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-6 space-y-3 sm:space-y-0 text-sm text-gray-500">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-5 h-5 text-green-500" />
-                <span>No setup fees</span>
+                <span>Free consultation</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-5 h-5 text-green-500" />
-                <span>14-day free trial</span>
+                <span>30-day trial after setup</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-5 h-5 text-green-500" />
-                <span>Cancel anytime</span>
+                <span>Month notice to cancel</span>
               </div>
             </div>
           </div>
