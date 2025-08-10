@@ -47,7 +47,7 @@ export default function Plans() {
         "Service AI: Ideal for high volume enquiries and save your admin or front desk teams with FAQs. Perfect for accommodations, restaurants and hotels",
         "Managed Social Campaigns: We design and manage targeted social media campaigns",
         "Pay-Per-Qualified-Lead: Only pay for leads that meet your agreed criteria",
-        "Transparent Pricing: Lead costs typically $10–$50 per qualified lead",
+        "Transparent Pricing: Lead costs typically $50–$100 per qualified lead",
         "Industry Optimized: Campaigns tailored for trades, hospitality, retail"
       ],
       popular: false
