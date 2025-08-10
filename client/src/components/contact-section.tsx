@@ -27,9 +27,7 @@ export default function ContactSection() {
               <h2 className="text-3xl lg:text-5xl font-bold mb-6">
                 Ready to Partner with <span className="text-yellow-300">Australia's AI Agency?</span>
               </h2>
-              <p className="text-xl text-blue-100 leading-relaxed">
-                We save you time and solve real world problems with automation solutions that transform your business. Start your free trial - no setup fees, no long-term commitments.
-              </p>
+
             </div>
             
             <div className="space-y-6">
