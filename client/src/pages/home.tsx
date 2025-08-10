@@ -1,7 +1,13 @@
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
+import { useEffect } from "react";
 
 export default function Home() {
+  // Set page title for SEO
+  useEffect(() => {
+    document.title = "Stream Digital Home | AI Automation Agency Australia | Business Growth Solutions";
+  }, []);
+
   return (
     <div className="min-h-screen">
       <Navigation />

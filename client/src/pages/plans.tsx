@@ -5,6 +5,11 @@ import { CheckCircle, Star } from "lucide-react";
 import { useEffect } from "react";
 
 export default function Plans() {
+  // Set page title for SEO
+  useEffect(() => {
+    document.title = "Stream Digital Plans & Pricing | AI Automation Solutions Australia | $299-$499/month";
+  }, []);
+
   // Load Go High Level form script
   useEffect(() => {
     const script = document.createElement('script');

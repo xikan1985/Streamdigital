@@ -16,11 +16,11 @@ export default function HeroSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">AI Solutions</span>
-                <span className="text-charcoal"> that drive real revenue</span>
+                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Stream Digital</span>
+                <span className="text-charcoal"> AI Automation Solutions</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Stuck answering calls all day while trying to run jobs? AI handles your missed calls, gets job details and photos, then schedules callbacks – so you can focus on the work that pays.
+                Australia's leading AI automation agency helping trade businesses and hospitality venues grow. Stream Digital handles your missed calls, automates bookings, and manages your reputation – so you can focus on the work that pays.
               </p>
             </div>
             

@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo className="text-white" />
             <p className="text-gray-400 leading-relaxed">
-              Stream Digital is Australia's leading AI and automation agency, helping local service businesses grow with intelligent solutions.
+              Stream Digital is Australia's premier AI automation agency, specialising in helping trade businesses, hospitality venues, and service companies grow through intelligent automation solutions. We save you time and solve real world problems.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
@@ -29,12 +29,33 @@ export default function Footer() {
 
           
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Stream Digital</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="/features" className="hover:text-white transition-colors">Services</a></li>
-              <li><a href="/plans" className="hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="/resources" className="hover:text-white transition-colors">Resources</a></li>
+              <li><a href="/features" className="hover:text-white transition-colors">AI Automation Services</a></li>
+              <li><a href="/plans" className="hover:text-white transition-colors">Automation Plans & Pricing</a></li>
+              <li><a href="/resources" className="hover:text-white transition-colors">Business Resources</a></li>
               <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold mb-4">Australia-Wide Services</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li className="hover:text-white transition-colors">Trade Business Automation</li>
+              <li className="hover:text-white transition-colors">Hospitality AI Solutions</li>
+              <li className="hover:text-white transition-colors">Missed Call Text Back</li>
+              <li className="hover:text-white transition-colors">CRM Automation</li>
+              <li className="hover:text-white transition-colors">Reputation Management</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold mb-4">Contact Stream Digital</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li>Australia-Wide Service</li>
+              <li>Email: hello@streamdigital.com.au</li>
+              <li>AI Automation Specialists</li>
+              <li className="text-primary font-medium">Stream Digital ABN: 53744510019</li>
             </ul>
           </div>
         </div>
