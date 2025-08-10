@@ -20,7 +20,7 @@ export default function HeroSection() {
                 <span className="text-charcoal"> that drive real revenue</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Helping local service businesses in the Geelong and Bellarine region to win more jobs using simple and effective AI and Automation solutions.
+                AI isn't the future. It's already helping tradies answer missed calls, qualify better jobs, and follow up with clients – automatically. If you're still stuck quoting at night or chasing leads between jobs, AI can handle the admin work so you can grow without hiring extra staff.
               </p>
             </div>
             
