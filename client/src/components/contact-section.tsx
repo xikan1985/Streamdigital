@@ -69,7 +69,7 @@ export default function ContactSection() {
               </h4>
               <div className="w-full" style={{ minHeight: '704px' }}>
                 <iframe
-                  src="/widget/form/oNtoE6mrxKOyMDdnwN3q"
+                  src="https://api.leadconnectorhq.com/widget/form/oNtoE6mrxKOyMDdnwN3q"
                   style={{
                     width: '100%',
                     height: '100%',
