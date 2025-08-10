@@ -226,7 +226,7 @@ export default function Plans() {
               Why Choose <span className="text-primary">Stream Digital?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're here to make life simpler for electricians and plumbers. Our services save you time, win more customers, and grow your business.
+              We save you time and solve real world problems with:
             </p>
           </div>
           

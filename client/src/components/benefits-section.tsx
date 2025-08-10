@@ -31,7 +31,7 @@ export default function BenefitsSection() {
                 Why Choose <span className="text-primary">Stream Digital</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                As a trusted AI and automation agency, we understand local businesses. Stream Digital's proven automation solutions help service businesses grow faster and more efficiently.
+                We save you time and solve real world problems with proven automation solutions that help service businesses grow faster and more efficiently.
               </p>
             </div>
             

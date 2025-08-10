@@ -42,7 +42,7 @@ export default function FeaturesSection() {
             <span className="text-primary">Stream Digital</span> AI & Automation Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            As Australia's premier AI agency, we provide simple, effective automation solutions designed specifically for local service businesses.
+            We save you time and solve real world problems with:
           </p>
         </div>
         

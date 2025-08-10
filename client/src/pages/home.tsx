@@ -14,7 +14,7 @@ export default function Home() {
               Welcome to <span className="text-yellow-300">Stream Digital</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              AI-powered solutions for Australian trade businesses. Automate your operations and grow your business with intelligent automation.
+              We save you time and solve real world problems with AI-powered solutions for Australian trade businesses.
             </p>
           </div>
         </div>

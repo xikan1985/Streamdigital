@@ -31,7 +31,7 @@ export default function Contact() {
               Contact <span className="text-yellow-300">Stream Digital</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Ready to partner with Australia's leading AI agency? Contact Stream Digital today for a free consultation and discover how our automation solutions can help your business win more jobs.
+              We save you time and solve real world problems with automation solutions that help your business win more jobs. Contact Stream Digital today for a free consultation.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Contact() {
                   Let's Grow Your Local Business
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                  Whether you're a solo electrician or plumber, or run a team, we're here to help you never miss a call, win more jobs, and grow your business with simple, effective solutions.
+                  We save you time and solve real world problems with simple, effective solutions that help you never miss a call, win more jobs, and grow your business.
                 </p>
               </div>
               
