@@ -10,7 +10,7 @@ export default function FeaturesSection() {
     {
       icon: Calendar,
       title: "AI Agent to Book Appointments",
-      description: "Say goodbye to phone tag—our AI handles bookings 24/7 and gathers all the job details from customers. You get more jobs lined up with complete information so you're fully prepared before you arrive."
+      description: "Say goodbye to phone tag—our AI handles bookings 24/7 and gathers all the job details from customers. You get complete information before you pick up the phone to speak to the customer, and can schedule a time to call back."
     },
     {
       icon: MessageCircle,
