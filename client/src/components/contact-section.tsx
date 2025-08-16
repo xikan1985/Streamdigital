@@ -75,10 +75,10 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <h4 className="text-xl font-semibold text-charcoal mb-4">
-                  Call Us Now
+                  Try Our Missed Call Text Back with AI Agent
                 </h4>
                 <p className="text-gray-600 mb-6">
-                  Speak directly with us to get instant answers and start your automation journey today.
+                  Test our automation system - call and hang up, then receive an instant AI text response!
                 </p>
                 <a href="tel:+61483984309">
                   <Button className="gradient-bg text-white px-8 py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105">

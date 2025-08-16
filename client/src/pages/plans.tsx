@@ -185,10 +185,10 @@ export default function Plans() {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-charcoal mb-4">
-              Call Us Now
+              Try Our Missed Call Text Back with AI Agent
             </h3>
             <p className="text-gray-600 mb-6">
-              Get instant answers to your questions and start your automation journey today.
+              Test our automation system - call and hang up, then receive an instant AI text response!
             </p>
             <a href="tel:+61483984309">
               <Button className="gradient-bg text-white px-8 py-4 text-xl hover:opacity-90 transition-all transform hover:scale-105">
