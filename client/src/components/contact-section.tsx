@@ -66,34 +66,28 @@ export default function ContactSection() {
               </Link>
             </div>
 
-            {/* Contact Form for those not ready to book */}
+            {/* Click to Call for those not ready to book */}
             <div className="w-full border-t border-gray-200 pt-8">
-              <h4 className="text-lg font-semibold text-charcoal mb-4 text-center">
-                Not ready to book? Send us a message instead
-              </h4>
-              <div className="w-full" style={{ minHeight: '704px' }}>
-                <iframe
-                  src="https://api.leadconnectorhq.com/widget/form/oNtoE6mrxKOyMDdnwN3q"
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    border: 'none',
-                    borderRadius: '4px'
-                  }}
-                  id="inline-oNtoE6mrxKOyMDdnwN3q"
-                  data-layout="{'id':'INLINE'}"
-                  data-trigger-type="alwaysShow"
-                  data-trigger-value=""
-                  data-activation-type="alwaysActivated"
-                  data-activation-value=""
-                  data-deactivation-type="neverDeactivate"
-                  data-deactivation-value=""
-                  data-form-name="Stream Digital Contact Us form"
-                  data-height="704"
-                  data-layout-iframe-id="inline-oNtoE6mrxKOyMDdnwN3q"
-                  data-form-id="oNtoE6mrxKOyMDdnwN3q"
-                  title="Stream Digital Contact Us form"
-                />
+              <div className="text-center">
+                <div className="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mb-6 mx-auto">
+                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                </div>
+                <h4 className="text-xl font-semibold text-charcoal mb-4">
+                  Call Us Now
+                </h4>
+                <p className="text-gray-600 mb-6">
+                  Speak directly with us to get instant answers and start your automation journey today.
+                </p>
+                <a href="tel:+61483984309">
+                  <Button className="gradient-bg text-white px-8 py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105">
+                    📞 Call +61 483 984 309
+                  </Button>
+                </a>
+                <p className="text-sm text-gray-500 mt-4">
+                  Available during business hours • Free consultation call
+                </p>
               </div>
             </div>
           </div>
