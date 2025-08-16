@@ -86,7 +86,7 @@ export default function ContactSection() {
                   </Button>
                 </a>
                 <p className="text-sm text-gray-500 mt-4">
-                  Available during business hours • Free consultation call
+                  Available 24/7 • Instant AI response demo
                 </p>
               </div>
             </div>
