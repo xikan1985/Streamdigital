@@ -82,7 +82,7 @@ export default function ContactSection() {
                 </p>
                 <a href="tel:+61483984309">
                   <Button className="gradient-bg text-white px-8 py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105">
-                    📞 Call +61 483 984 309
+                    📞 Call to Initiate Agent
                   </Button>
                 </a>
                 <p className="text-sm text-gray-500 mt-4">
