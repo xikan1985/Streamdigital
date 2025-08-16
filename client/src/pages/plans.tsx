@@ -173,42 +173,34 @@ export default function Plans() {
             <h2 className="text-3xl lg:text-4xl font-bold text-charcoal mb-6">
               Ready to Automate Your Growth?
             </h2>
-            <p className="text-xl text-gray-600">
-              Contact us to get started or book a demo today!
+            <p className="text-xl text-gray-600 mb-8">
+              Speak with us directly to get started!
             </p>
           </div>
           
-          <div className="bg-white rounded-2xl p-8 shadow-2xl">
-            <div className="w-full" style={{ minHeight: '704px' }}>
-              <iframe
-                src="https://api.leadconnectorhq.com/widget/form/oNtoE6mrxKOyMDdnwN3q"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  border: 'none',
-                  borderRadius: '4px'
-                }}
-                id="inline-oNtoE6mrxKOyMDdnwN3q"
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="Stream Digital Contact Us form"
-                data-height="704"
-                data-layout-iframe-id="inline-oNtoE6mrxKOyMDdnwN3q"
-                data-form-id="oNtoE6mrxKOyMDdnwN3q"
-                title="Stream Digital Contact Us form"
-              />
+          <div className="bg-white rounded-2xl p-8 shadow-2xl text-center">
+            <div className="w-20 h-20 gradient-bg rounded-full flex items-center justify-center mb-6 mx-auto">
+              <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg>
             </div>
+            <h3 className="text-2xl font-bold text-charcoal mb-4">
+              Call Us Now
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Get instant answers to your questions and start your automation journey today.
+            </p>
+            <a href="tel:+61483984309">
+              <Button className="gradient-bg text-white px-8 py-4 text-xl hover:opacity-90 transition-all transform hover:scale-105">
+                📞 Call +61 483 984 309
+              </Button>
+            </a>
+            <p className="text-sm text-gray-500 mt-4">
+              Available during business hours • Free consultation call
+            </p>
           </div>
 
-          {/* Consent Text */}
-          <p className="text-sm text-gray-600 text-center mt-6 max-w-3xl mx-auto">
-            By signing up, you agree: "I confirm that I want to receive messages from Stream Digital using the contact information I've provided. I understand I can opt out at any time by clicking the unsubscribe link in emails or replying STOP to SMS messages."
-          </p>
+
         </div>
       </section>
 
