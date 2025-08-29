@@ -33,25 +33,21 @@ function Router() {
 
 function App() {
   useEffect(() => {
-    // Only load chat widget on desktop devices
-    const isDesktop = window.innerWidth >= 1024;
-    
-    if (isDesktop) {
-      const script = document.createElement('script');
-      script.src = 'https://widgets.leadconnectorhq.com/loader.js';
-      script.setAttribute('data-resources-url', 'https://widgets.leadconnectorhq.com/chat-widget/loader.js');
-      script.setAttribute('data-widget-id', '68b1352d9f6f1f223342c5f5');
-      script.async = true;
-      document.body.appendChild(script);
+    // Load chat widget on all devices
+    const script = document.createElement('script');
+    script.src = 'https://widgets.leadconnectorhq.com/loader.js';
+    script.setAttribute('data-resources-url', 'https://widgets.leadconnectorhq.com/chat-widget/loader.js');
+    script.setAttribute('data-widget-id', '68b1352d9f6f1f223342c5f5');
+    script.async = true;
+    document.body.appendChild(script);
 
-      return () => {
-        // Cleanup script on unmount
-        const existingScript = document.querySelector('script[src="https://widgets.leadconnectorhq.com/loader.js"]');
-        if (existingScript) {
-          document.body.removeChild(existingScript);
-        }
-      };
-    }
+    return () => {
+      // Cleanup script on unmount
+      const existingScript = document.querySelector('script[src="https://widgets.leadconnectorhq.com/loader.js"]');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+    };
   }, []);
 
   return (
