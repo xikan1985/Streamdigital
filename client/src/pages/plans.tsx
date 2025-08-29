@@ -190,7 +190,7 @@ export default function Plans() {
             <p className="text-gray-600 mb-6">
               Test our automation system - call and hang up, then receive an instant AI text response!
             </p>
-            <a href="tel:+61483984309">
+            <a href="tel:+610408788848">
               <Button className="gradient-bg text-white px-8 py-4 text-xl hover:opacity-90 transition-all transform hover:scale-105">
                 📞 Call to Initiate Agent
               </Button>
