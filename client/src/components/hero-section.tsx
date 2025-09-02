@@ -21,7 +21,7 @@ export default function HeroSection() {
                 <span className="text-charcoal"> AI Automation Solutions</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Australia's leading AI automation agency helping trade businesses and hospitality venues grow. Stream Digital handles your missed calls, automates bookings, and manages your reputation – so you can focus on the work that pays.
+                Australia's leading AI automation agency helping trade businesses and service companies grow. Stream Digital handles your missed calls, automates bookings, and manages your reputation – so you can focus on the work that pays.
               </p>
             </div>
             

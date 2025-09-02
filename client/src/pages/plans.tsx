@@ -55,7 +55,7 @@ export default function Plans() {
         "Managed Social Campaigns: We design and manage targeted social media campaigns",
         "Pay-Per-Qualified-Lead: Only pay for leads that meet your agreed criteria",
         "Transparent Pricing: Lead costs typically $50–$100 per qualified lead",
-        "Industry Optimized: Campaigns tailored for trades, hospitality, retail"
+        "Industry Optimized: Campaigns tailored for trades, service businesses, retail"
       ],
       popular: false
     }

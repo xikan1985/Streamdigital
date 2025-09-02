@@ -9,7 +9,7 @@ export default function SEOContent() {
               Stream Digital: Australia's Trusted AI Automation Partner
             </h2>
             <p className="text-lg text-gray-700 mb-4">
-              Stream Digital is Australia's premier AI automation agency, dedicated to helping trade businesses, hospitality venues, and service companies grow through intelligent automation solutions. Our expertise lies in streamlining business operations so you can focus on what matters most - serving your customers and growing your business.
+              Stream Digital is Australia's premier AI automation agency, dedicated to helping trade businesses and service companies grow through intelligent automation solutions. Our expertise lies in streamlining business operations so you can focus on what matters most - serving your customers and growing your business.
             </p>
           </div>
 
@@ -19,7 +19,7 @@ export default function SEOContent() {
               <ul className="space-y-3 text-gray-700">
                 <li>• <strong>Australian-owned and operated</strong> - We understand local business needs</li>
                 <li>• <strong>Proven track record</strong> - Helping businesses across Australia automate and grow</li>
-                <li>• <strong>Industry expertise</strong> - Specialising in trades, hospitality, and service businesses</li>
+                <li>• <strong>Industry expertise</strong> - Specialising in trades and service businesses</li>
                 <li>• <strong>Complete automation solutions</strong> - From lead capture to customer retention</li>
                 <li>• <strong>No-lock-in contracts</strong> - Flexible plans that grow with your business</li>
               </ul>

@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo className="text-white" />
             <p className="text-gray-400 leading-relaxed">
-              Stream Digital is Australia's premier AI automation agency, specialising in helping trade businesses, hospitality venues, and service companies grow through intelligent automation solutions. We save you time and solve real world problems.
+              Stream Digital is Australia's premier AI automation agency, specialising in helping trade businesses and service companies grow through intelligent automation solutions. We save you time and solve real world problems.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
@@ -42,7 +42,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Australia-Wide Services</h4>
             <ul className="space-y-2 text-gray-400">
               <li className="hover:text-white transition-colors">Trade Business Automation</li>
-              <li className="hover:text-white transition-colors">Hospitality AI Solutions</li>
+              <li className="hover:text-white transition-colors">Service Business AI Solutions</li>
               <li className="hover:text-white transition-colors">Missed Call Text Back</li>
               <li className="hover:text-white transition-colors">CRM Automation</li>
               <li className="hover:text-white transition-colors">Reputation Management</li>
