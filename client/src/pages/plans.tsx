@@ -8,7 +8,7 @@ import { Link } from "wouter";
 export default function Plans() {
   // Set page title for SEO
   useEffect(() => {
-    document.title = "Stream Digital Plans & Pricing | AI Automation Solutions Australia | $299-$499/month";
+    document.title = "Plans & Pricing | Stream Digital | AI Automation Australia";
   }, []);
 
   // Load Go High Level form script

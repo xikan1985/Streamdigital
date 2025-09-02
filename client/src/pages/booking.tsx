@@ -7,7 +7,7 @@ import { useEffect } from "react";
 export default function Booking() {
   // Set page title for SEO
   useEffect(() => {
-    document.title = "Book Your Consultation | Stream Digital | Free AI Automation Assessment";
+    document.title = "Book Consultation | Stream Digital | Free AI Assessment";
   }, []);
 
   // Load Go High Level form embed script

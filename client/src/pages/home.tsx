@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function Home() {
   // Set page title for SEO
   useEffect(() => {
-    document.title = "Stream Digital Home | AI Automation Agency Australia | Business Growth Solutions";
+    document.title = "Stream Digital | AI Automation Agency Australia | Business Growth";
   }, []);
 
   return (

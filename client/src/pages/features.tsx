@@ -9,7 +9,7 @@ import { useEffect } from "react";
 export default function Features() {
   // Set page title for SEO
   useEffect(() => {
-    document.title = "Stream Digital | Australia's Leading AI Automation Agency | Trade & Hospitality Solutions";
+    document.title = "Stream Digital | AI Automation Agency Australia | Trade & Hospitality";
   }, []);
 
   return (
