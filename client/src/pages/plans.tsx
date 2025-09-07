@@ -165,17 +165,11 @@ export default function Plans() {
                   <span className="font-medium">Cancellation:</span> {plan.cancellation}
                 </div>
 
-                <Button 
-                  className="w-full py-3 text-lg gradient-bg text-white hover:opacity-90"
-                  onClick={() => {
-                    const contactSection = document.querySelector('#contact-form-section');
-                    if (contactSection) {
-                      contactSection.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}
-                >
-                  Get Started
-                </Button>
+                <Link href="/booking">
+                  <Button className="w-full py-3 text-lg gradient-bg text-white hover:opacity-90">
+                    Get Started
+                  </Button>
+                </Link>
               </div>
             ))}
           </div>

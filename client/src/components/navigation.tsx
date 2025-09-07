@@ -86,7 +86,7 @@ export default function Navigation() {
               <Link href="/contact" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
                 Contact
               </Link>
-              <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/booking" onClick={() => setIsMenuOpen(false)}>
                 <Button className="gradient-bg text-white hover:opacity-90 transition-opacity w-full mt-4">
                   Get Started
                 </Button>

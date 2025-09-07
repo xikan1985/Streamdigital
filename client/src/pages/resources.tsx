@@ -338,9 +338,11 @@ export default function Resources() {
               Start with our comprehensive onboarding resources and join the AI automation revolution.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-primary px-8 py-4 text-lg font-semibold hover:bg-gray-100 transition-all">
-                Start Free Trial
-              </Button>
+              <Link href="/booking">
+                <Button className="bg-white text-primary px-8 py-4 text-lg font-semibold hover:bg-gray-100 transition-all">
+                  Start Free Trial
+                </Button>
+              </Link>
               <Button 
                 variant="outline"
                 className="border-2 border-white text-white px-8 py-4 text-lg hover:bg-white hover:text-primary transition-all"

@@ -26,13 +26,14 @@ export default function HeroSection() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                onClick={scrollToContact}
-                className="gradient-bg text-white px-8 py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105"
-                size="lg"
-              >
-                Start Free Trial
-              </Button>
+              <Link href="/booking">
+                <Button 
+                  className="gradient-bg text-white px-8 py-4 text-lg hover:opacity-90 transition-all transform hover:scale-105"
+                  size="lg"
+                >
+                  Start Free Trial
+                </Button>
+              </Link>
             </div>
             
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-6 space-y-3 sm:space-y-0 text-sm text-gray-500">
