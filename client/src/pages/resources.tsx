@@ -95,7 +95,7 @@ export default function Resources() {
     {
       icon: Play,
       title: "Video Tutorials",
-      description: "Watch and learn how to maximize your AI system's potential",
+      description: "Watch and learn how to maximise your AI system's potential",
       count: "25 videos",
       resources: [
         "AI Agent Configuration Walkthrough",
@@ -154,7 +154,7 @@ export default function Resources() {
               AI Resources for <span className="text-yellow-300">Every Trade</span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Comprehensive guides, templates, and case studies to help you implement and maximize AI automation in your trade business.
+              Comprehensive guides, templates, and case studies to help you implement and maximise AI automation in your trade business.
             </p>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default function Resources() {
               Everything You Need to <span className="text-primary">Succeed</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From setup guides to advanced optimization techniques, we provide comprehensive support materials.
+              From setup guides to advanced optimisation techniques, we provide comprehensive support materials.
             </p>
           </div>
           
@@ -318,7 +318,7 @@ export default function Resources() {
                 <span className="text-white font-bold text-lg">?</span>
               </div>
               <h3 className="text-lg font-semibold text-charcoal mb-3">Contact Support</h3>
-              <p className="text-gray-600 mb-4">Get personalized help from our AI specialists and trade business experts.</p>
+              <p className="text-gray-600 mb-4">Get personalised help from our AI specialists and trade business experts.</p>
               <Button className="gradient-bg text-white hover:opacity-90">
                 Get Support
               </Button>
