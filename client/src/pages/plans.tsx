@@ -29,34 +29,47 @@ export default function Plans() {
 
   const plans = [
     {
-      name: "Done for You",
-      price: "$299",
-      period: "per month",
-      description: "Perfect for businesses wanting to streamline customer engagement and boost online presence with minimal effort.",
+      name: "Base Plan",
+      price: "$297",
+      period: "per month + GST",
+      description: "An entry-level plan for small Australian businesses to improve lead conversion using basic automation tools.",
       features: [
-        "Missed Call Text Back: Never miss a lead with our AI-powered text-back system",
-        "Advanced White-Labeled CRM: Manage SMS, email, social media, and WhatsApp campaigns",
-        "AI Agent Setup & Training: We configure and train your agents to align with your brand",
-        "Service AI: Ideal for high volume enquiries and save your admin or front desk teams with FAQs. Perfect for accommodations, restaurants and hotels",
-        "Test & Approve: You review and approve all setups before they go live",
-        "Review Automation: Boost your online ratings with automated review requests"
+        "White-labeled GoHighLevel CRM for managing contacts and running SMS/email campaigns",
+        "One bespoke leads conversion AI bot, trained to engage leads",
+        "Missed call text-back using your existing Android or chosen iPhone number",
+        "AI setup and ongoing maintenance"
       ],
+      cancellation: "One month's notice",
+      popular: false
+    },
+    {
+      name: "Growth Plan",
+      price: "$499",
+      period: "per month",
+      description: "Designed for businesses aiming to streamline customer engagement and enhance online presence with advanced automation.",
+      features: [
+        "Missed call text-back with AI",
+        "Advanced white-labeled CRM supporting SMS, email, social media, and WhatsApp campaigns",
+        "Three AI agents, configured and trained for your brand",
+        "Two service AIs for handling high-volume inquiries (e.g., FAQs for accommodation, restaurants, hotels)",
+        "Test and approve setups before launch",
+        "Automated review requests to boost online ratings"
+      ],
+      cancellation: "One month's notice",
       popular: true
     },
     {
-      name: "Done for You + Lead Generation", 
-      price: "$499",
-      period: "per month + Lead Cost",
-      description: "Everything in the Done for You plan, plus a bespoke converting landing page and managed social campaigns to drive qualified leads and grow your business.",
+      name: "Bespoke Plan",
+      price: "Based on scope",
+      period: "of work",
+      description: "A comprehensive plan for businesses seeking customized automation and managed campaigns to drive qualified leads.",
       features: [
-        "All Done for You Features: Get the full suite of automation tools",
-        "Service AI: Ideal for high volume enquiries and save your admin or front desk teams with FAQs. Perfect for accommodations, restaurants and hotels",
-        "Bespoke Converting Landing Page: A custom-built landing page designed to convert visitors into customers",
-        "Managed Social Campaigns: We design and manage targeted social media campaigns",
-        "Pay-Per-Qualified-Lead: Only pay for leads that meet your agreed criteria",
-        "Transparent Pricing: Lead costs typically $50–$100 per qualified lead",
-        "Industry Optimized: Campaigns tailored for trades, service businesses, retail"
+        "All Growth Plan features (advanced CRM, three AI agents, two service AIs, review automation)",
+        "Custom-built landing page designed for conversions",
+        "Managed social media campaigns tailored for trades, hospitality, or retail",
+        "Pay-per-qualified-lead pricing, with transparent lead costs"
       ],
+      cancellation: "Based on agreement",
       popular: false
     }
   ];
@@ -95,7 +108,7 @@ export default function Plans() {
 
       <section className="py-20 bg-lightgrey">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {plans.map((plan, index) => (
               <div 
                 key={index} 
@@ -117,13 +130,17 @@ export default function Plans() {
                   <p className="text-gray-600">{plan.description}</p>
                 </div>
 
-                <div className="space-y-4 mb-8">
+                <div className="space-y-4 mb-6">
                   {plan.features.map((feature, featureIndex) => (
                     <div key={featureIndex} className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-700 text-sm">{feature}</span>
                     </div>
                   ))}
+                </div>
+
+                <div className="text-sm text-gray-500 mb-6 text-center">
+                  <span className="font-medium">Cancellation:</span> {plan.cancellation}
                 </div>
 
                 <Button 
