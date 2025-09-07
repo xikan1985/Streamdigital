@@ -18,7 +18,7 @@ export default function HeroSection() {
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Stream Digital</span>
-                <span className="text-charcoal">: Bespoke AI and marketing campaigns to grow your business.</span>
+                <span className="text-charcoal">: Bespoke AI & Marketing</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 With 15+ years of marketing experience, Stream Digital helps you convert leads to sales by using a mix of human and technology by addressing underlying human needs.
