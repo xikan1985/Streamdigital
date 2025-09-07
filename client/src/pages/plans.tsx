@@ -30,7 +30,7 @@ export default function Plans() {
   const plans = [
     {
       name: "Base Plan",
-      price: "$197",
+      price: "$297",
       period: "per month + GST",
       value: "$450",
       valueBreakdown: "White-labeled CRM: $150 p.m., Bespoke AI Bot: $150 p.m., Missed Call Text-Back: $150 p.m.",
