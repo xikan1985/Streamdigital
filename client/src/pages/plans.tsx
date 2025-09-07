@@ -64,8 +64,8 @@ export default function Plans() {
     },
     {
       name: "Bespoke Plan",
-      price: "Based on scope",
-      period: "of work",
+      price: "Price based on Scope of work",
+      period: "",
       value: null,
       valueBreakdown: null,
       description: "A comprehensive plan for businesses seeking customised automation and managed campaigns to drive qualified leads.",
@@ -134,9 +134,9 @@ export default function Plans() {
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-charcoal mb-4">{plan.name}</h3>
                   <div className="mb-4">
-                    <div className="text-3xl font-bold text-charcoal mb-1">
+                    <div className={plan.name === "Bespoke Plan" ? "text-lg text-gray-600 mb-1" : "text-3xl font-bold text-charcoal mb-1"}>
                       {plan.price}
-                      <span className="text-lg font-normal text-gray-600 ml-1">{plan.period}</span>
+                      {plan.period && <span className="text-lg font-normal text-gray-600 ml-1">{plan.period}</span>}
                     </div>
                     {plan.value && (
                       <div className="bg-green-50 border border-green-200 rounded-lg p-3 mt-3">
