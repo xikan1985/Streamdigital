@@ -69,7 +69,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-charcoal text-lg mb-1">Location</h3>
-                    <p className="text-gray-600">Australia</p>
+                    <p className="text-gray-600">Geelong Australia</p>
                     <p className="text-sm text-gray-500">Serving local service businesses Australia-wide</p>
                   </div>
                 </div>
