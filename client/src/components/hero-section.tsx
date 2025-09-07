@@ -21,7 +21,7 @@ export default function HeroSection() {
                 <span className="text-charcoal"> AI Automation Solutions</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Stream Digital is here to grow your business.
+                With 15+ years of marketing experience, Stream Digital helps you convert leads to sales by using a mix of human and technology by addressing underlying human needs.
               </p>
             </div>
             
