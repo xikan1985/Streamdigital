@@ -20,9 +20,17 @@ export default function HeroSection() {
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Stream Digital</span>
                 <span className="text-charcoal">: Bespoke AI & Marketing</span>
               </h1>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                With 15+ years of marketing experience, Stream Digital helps you convert leads to sales by using a mix of human and technology by addressing underlying human needs.
-              </p>
+              <div className="text-lg text-gray-600 leading-relaxed space-y-4">
+                <p>
+                  With over 15 years of marketing know-how, Stream Digital helps small and medium businesses across Australia turn leads into sales. We dive deep into your sales process, crafting tailored strategies that align with your growth ambitions. Our approach blends human insight with cutting-edge tech to deliver cracking results.
+                </p>
+                <p>
+                  We create custom multi-channel marketing funnels and smart automations to maximise your efficiency and revenue. By understanding what drives your customers, we ensure every solution hits the mark. Whether it's streamlining operations or amplifying outreach, we tailor our work to fit your business like a glove.
+                </p>
+                <p>
+                  Love our plan? We'll bring it to life with precision. Not keen? Walk away with no strings attached. Our no-obligation process lets you explore growth opportunities with confidence, backed by a team dedicated to your success in Australia's competitive market.
+                </p>
+              </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
