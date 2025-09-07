@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 export default function FeaturesSection() {
   const features = [
     {
-      icon: Phone,
-      title: "Miss Call Text Back",
-      description: "You're on the tools. Your AI answers the phone, books jobs in your calendar, and collects details from leads you would've lost."
+      icon: BarChart3,
+      title: "Sales Funnel Optimisation",
+      description: "Marketing automation the moment a prospect shows interest, multichannel approach to enhance customer conversation, AI agent deployment to qualify prospects to sale."
     },
     {
       icon: Calendar,
