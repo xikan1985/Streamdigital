@@ -13,8 +13,8 @@ export default function HeroSection() {
   return (
     <section className="pt-20 pb-16 hero-gradient">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-center">
-          <div className="space-y-8 text-center max-w-4xl">
+        <div className="w-full">
+          <div className="space-y-8 text-center max-w-5xl mx-auto">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Stream Digital</span>
