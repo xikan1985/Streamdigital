@@ -81,15 +81,19 @@ export default function Contact() {
                 <div className="space-y-3 text-sm">
                   <div>
                     <p className="font-medium text-charcoal">How quickly can I get started?</p>
-                    <p className="text-gray-600">Most local setups completed within 24-48 hours.</p>
+                    <p className="text-gray-600">Setup takes one to two weeks.</p>
                   </div>
                   <div>
                     <p className="font-medium text-charcoal">Do I need technical knowledge?</p>
                     <p className="text-gray-600">No! We will handle the setup but will need your support to provide access to existing tools.</p>
                   </div>
                   <div>
+                    <p className="font-medium text-charcoal">Is there a free trial?</p>
+                    <p className="text-gray-600">Yes, free for 30 days after setup.</p>
+                  </div>
+                  <div>
                     <p className="font-medium text-charcoal">Can I cancel anytime?</p>
-                    <p className="text-gray-600">Yes, no long-term contracts required.</p>
+                    <p className="text-gray-600">Yes, with one month notice required.</p>
                   </div>
                 </div>
               </div>
