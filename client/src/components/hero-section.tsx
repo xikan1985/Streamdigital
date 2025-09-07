@@ -21,7 +21,7 @@ export default function HeroSection() {
                 <span className="text-charcoal"> AI Automation Solutions</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                At Stream Digital, we focus on solving business problems to drive growth using AI and human expertise combined. We handle your missed calls, automate bookings, and manage your reputation – so you can focus on the work that pays.
+                With 15+ years of marketing experience, Stream Digital helps you convert leads to sales by using a mix of human and technology by addressing underlying human needs. We handle your missed calls, automate bookings, and manage your reputation – so you can focus on the work that pays.
               </p>
             </div>
             
