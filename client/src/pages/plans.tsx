@@ -33,11 +33,11 @@ export default function Plans() {
       price: "$297",
       period: "per month + GST",
       value: "$450",
-      valueBreakdown: "White-labeled CRM: $150 p.m., Bespoke AI Bot: $150 p.m., Missed Call Text-Back: $150 p.m.",
+      valueBreakdown: "White-labeled CRM: $150 p.m., Bespoke AI Agent: $150 p.m., Missed Call Text-Back: $150 p.m.",
       description: "An entry-level plan for small Australian businesses to improve lead conversion using essential automation tools.",
       features: [
         "White-labeled GoHighLevel CRM for managing contacts and running SMS/email campaigns",
-        "One bespoke leads conversion AI bot, trained to engage leads",
+        "One bespoke leads conversion AI agent, trained to engage leads",
         "Missed call text-back using your existing Android or chosen iPhone number",
         "AI setup and ongoing maintenance"
       ],
