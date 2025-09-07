@@ -60,7 +60,6 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-charcoal text-lg mb-1">Email Support</h3>
                     <p className="text-gray-600">hello@streamdigital.com.au</p>
-                    <p className="text-sm text-gray-500">We respond within 2 hours</p>
                   </div>
                 </div>
 
