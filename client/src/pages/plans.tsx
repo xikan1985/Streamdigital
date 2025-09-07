@@ -30,9 +30,11 @@ export default function Plans() {
   const plans = [
     {
       name: "Base Plan",
-      price: "$297",
+      price: "$197",
       period: "per month + GST",
-      description: "An entry-level plan for small Australian businesses to improve lead conversion using basic automation tools.",
+      value: "$450",
+      valueBreakdown: "White-labeled CRM: $150 p.m., Bespoke AI Bot: $150 p.m., Missed Call Text-Back: $150 p.m.",
+      description: "An entry-level plan for small Australian businesses to improve lead conversion using essential automation tools.",
       features: [
         "White-labeled GoHighLevel CRM for managing contacts and running SMS/email campaigns",
         "One bespoke leads conversion AI bot, trained to engage leads",
@@ -46,6 +48,8 @@ export default function Plans() {
       name: "Growth Plan",
       price: "$499",
       period: "per month",
+      value: "$1050",
+      valueBreakdown: "est. based on Base features + advanced CRM: $250 p.m., three AI agents: $450 p.m., two service AIs: $300 p.m., review automation: $50 p.m.",
       description: "Designed for businesses aiming to streamline customer engagement and enhance online presence with advanced automation.",
       features: [
         "Missed call text-back with AI",
@@ -62,14 +66,16 @@ export default function Plans() {
       name: "Bespoke Plan",
       price: "Based on scope",
       period: "of work",
-      description: "A comprehensive plan for businesses seeking customized automation and managed campaigns to drive qualified leads.",
+      value: null,
+      valueBreakdown: null,
+      description: "A comprehensive plan for businesses seeking customised automation and managed campaigns to drive qualified leads.",
       features: [
         "All Growth Plan features (advanced CRM, three AI agents, two service AIs, review automation)",
         "Custom-built landing page designed for conversions",
         "Managed social media campaigns tailored for trades, hospitality, or retail",
         "Pay-per-qualified-lead pricing, with transparent lead costs"
       ],
-      cancellation: "Based on agreement",
+      cancellation: "One month's notice",
       popular: false
     }
   ];
@@ -127,6 +133,22 @@ export default function Plans() {
                 
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-charcoal mb-4">{plan.name}</h3>
+                  <div className="mb-4">
+                    <div className="text-3xl font-bold text-charcoal mb-1">
+                      {plan.price}
+                      <span className="text-lg font-normal text-gray-600 ml-1">{plan.period}</span>
+                    </div>
+                    {plan.value && (
+                      <div className="bg-green-50 border border-green-200 rounded-lg p-3 mt-3">
+                        <div className="text-lg font-semibold text-green-700 mb-1">
+                          Value: {plan.value} p.m.
+                        </div>
+                        <div className="text-sm text-green-600">
+                          ({plan.valueBreakdown})
+                        </div>
+                      </div>
+                    )}
+                  </div>
                   <p className="text-gray-600">{plan.description}</p>
                 </div>
 
