@@ -17,8 +17,8 @@ export default function HeroSection() {
           <div className="space-y-8 text-center max-w-5xl mx-auto">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Stream Digital</span>
-                <span className="text-charcoal">, nurture your prospects into clients.</span>
+                <div className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Stream Digital</div>
+                <div className="text-charcoal">Turn Leads into Sales with Customised AI and Automation</div>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
                 At Stream Digital, we turn leads into sales for small and medium-sized service-based businesses using customised AI and automation tailored to your unique needs.
