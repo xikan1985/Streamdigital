@@ -17,8 +17,8 @@ export default function HeroSection() {
           <div className="space-y-8 text-center max-w-5xl mx-auto">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Stream Digital</span>
-                <span className="text-charcoal">: Bespoke AI & Marketing</span>
+                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Turn Leads into Sales</span>
+                <span className="text-charcoal"> with Customised AI and Automation</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
                 With 15+ years of marketing experience crushing it in FMCG, financial services, and local services, plus over $100M in ad spend across Google, Meta, and more, I help Aussie small and medium businesses turn leads into serious cash. My bespoke multi-channel funnels and smart automations, honed through conversion funnel testing and email/SMS campaigns, blend human smarts with cutting-edge tech. Book a free consult for a tailored multichannel marketing plan with AI integration and an automation proposal to skyrocket your sales.
