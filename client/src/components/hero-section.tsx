@@ -21,7 +21,7 @@ export default function HeroSection() {
                 <span className="text-charcoal"> with Customised AI and Automation</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                With 15+ years of marketing experience crushing it in FMCG, financial services, and local services, plus over $100M in ad spend across Google, Meta, and more, I help Aussie small and medium businesses turn leads into serious cash. My bespoke multi-channel funnels and smart automations, honed through conversion funnel testing and email/SMS campaigns, blend human smarts with cutting-edge tech. Book a free consult for a tailored multichannel marketing plan with AI integration and an automation proposal to skyrocket your sales.
+                At Stream Digital, we turn leads into sales for small and medium-sized service-based businesses using customised AI and automation tailored to your unique needs.
               </p>
             </div>
             
