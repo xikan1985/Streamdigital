@@ -41,9 +41,6 @@ export default function Navigation() {
             <Link href="/booking" className="text-charcoal hover:text-primary transition-colors">
               Book Consultation
             </Link>
-            <Link href="/resources" className="text-charcoal hover:text-primary transition-colors">
-              Resources
-            </Link>
             <Link href="/contact" className="text-charcoal hover:text-primary transition-colors">
               Contact
             </Link>
@@ -79,9 +76,6 @@ export default function Navigation() {
               </Link>
               <Link href="/plans" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
                 Pricing
-              </Link>
-              <Link href="/resources" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
-                Resources
               </Link>
               <Link href="/contact" className="text-charcoal hover:text-primary transition-colors text-left" onClick={() => setIsMenuOpen(false)}>
                 Contact
