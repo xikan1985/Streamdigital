@@ -12,7 +12,7 @@ export function Privacy() {
             
             <div className="prose prose-lg max-w-none text-white/90 space-y-6">
               <div className="mb-6">
-                <p className="text-sm text-gray-300">Last Updated: August 04, 2025</p>
+                <p className="text-sm text-gray-300">Last Updated: January 8, 2025</p>
               </div>
 
               <p>
@@ -85,7 +85,7 @@ export function Privacy() {
                   <strong>Email:</strong> <a href="mailto:hello@streamdigital.com.au" className="text-blue-300 hover:text-blue-200 underline">hello@streamdigital.com.au</a>
                 </p>
                 <p>
-                  We're here to help small businesses like electricians and plumbers stay private and secure while using our services.
+                  We're here to help small and medium-sized service-based businesses across Australia stay private and secure while using our services.
                 </p>
               </section>
 
