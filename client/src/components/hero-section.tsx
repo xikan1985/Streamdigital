@@ -21,7 +21,7 @@ export default function HeroSection() {
                 <div className="text-charcoal">Turn Leads into Sales with Customised AI and Automation</div>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                At Stream Digital, we turn leads into sales for small and medium-sized service-based businesses using customised AI and automation tailored to your unique needs.
+                At Stream Digital, we help small and medium-sized service-based businesses save hundreds of hours and grow sales with customised AI and automation that nurtures every enquiry into a sale. Our all-in-one system connects via SMS, email, or calls within minutes, slashing overheads and boosting conversions.
               </p>
             </div>
             
