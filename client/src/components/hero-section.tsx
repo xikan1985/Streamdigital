@@ -18,7 +18,7 @@ export default function HeroSection() {
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 <div className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Stream Digital</div>
-                <div className="text-charcoal text-2xl lg:text-4xl">Turn Leads into Sales with Customised AI and Automation</div>
+                <div className="text-charcoal text-2xl lg:text-4xl mt-4">Turn Leads into Sales with Customised AI and Automation</div>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
                 At Stream Digital, we help small and medium-sized service-based businesses save hundreds of hours and grow sales with customised AI and automation that nurtures every enquiry into a sale. Our all-in-one system connects via SMS, email, or calls within minutes, slashing overheads and boosting conversions.
