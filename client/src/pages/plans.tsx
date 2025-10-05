@@ -133,22 +133,6 @@ export default function Plans() {
                 
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-charcoal mb-4">{plan.name}</h3>
-                  <div className="mb-4">
-                    <div className={plan.name === "Bespoke Plan" ? "text-lg text-gray-600 mb-1" : "text-3xl font-bold text-charcoal mb-1"}>
-                      {plan.price}
-                      {plan.period && <span className="text-lg font-normal text-gray-600 ml-1">{plan.period}</span>}
-                    </div>
-                    {plan.value && (
-                      <div className="bg-green-50 border border-green-200 rounded-lg p-3 mt-3">
-                        <div className="text-lg font-semibold text-green-700 mb-1">
-                          Value: {plan.value} p.m.
-                        </div>
-                        <div className="text-sm text-green-600">
-                          ({plan.valueBreakdown})
-                        </div>
-                      </div>
-                    )}
-                  </div>
                   <p className="text-gray-600">{plan.description}</p>
                 </div>
 
